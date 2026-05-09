@@ -39,6 +39,50 @@
   @apply border-charcoal bg-charcoal text-white hover:border-primary hover:bg-primary hover:text-ink transition-[background-color,color,border-color,transform,box-shadow] duration-500;
 }
 
+:root,
+[data-theme="light"] {
+  --color-base-100: #ffffff;
+  --color-base-200: #f6f3ed;
+  --color-base-300: #ead8b8;
+  --color-base-content: #333335;
+  --color-primary: #fbb040;
+  --color-primary-content: #010101;
+  --color-secondary: #333335;
+  --color-secondary-content: #ffffff;
+  --color-accent: #d88912;
+  --color-accent-content: #010101;
+  --color-neutral: #010101;
+  --color-neutral-content: #ffffff;
+}
+
+.btn.btn-primary,
+.btn-primary {
+  background-color: #fbb040;
+  border-color: #fbb040;
+  color: #010101;
+}
+
+.btn.btn-primary:hover,
+.btn-primary:hover {
+  background-color: #d88912;
+  border-color: #d88912;
+  color: #ffffff;
+}
+
+.btn.btn-secondary,
+.btn-secondary {
+  background-color: #333335;
+  border-color: #333335;
+  color: #ffffff;
+}
+
+.btn.btn-secondary:hover,
+.btn-secondary:hover {
+  background-color: #fbb040;
+  border-color: #fbb040;
+  color: #010101;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
   background-color: #f6f3ed;
