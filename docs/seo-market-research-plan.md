@@ -2,15 +2,16 @@
 
 Date: 2026-05-09
 Business: LambertWorks
-Base location: 821 Cherry Ln, Plymouth Meeting, PA 19462
+Base location: Plymouth meeting, bluebell, Skippack areas
 Primary conversion: estimate request by form or WhatsApp
 Research method: `.codex/market-research` + `.codex/seo`
 
 ## Executive Summary
 
-The local search surface around Plymouth Meeting is already competitive for broad handyman terms. Competitors are not only using homepage copy; they are creating service-location pages such as `Drywall Repair in Plymouth Meeting`, `Handyman Services in Plymouth Meeting, PA`, painting/carpentry pages, and basement-specific location pages.
+The local search surface around Plymouth meeting, bluebell, Skippack areas is already competitive for broad handyman 
+terms. Competitors are not only using homepage copy; they are creating service-location pages such as `Drywall Repair in Plymouth meeting, bluebell, Skippack areas`, `Handyman Services in PPlymouth meeting, bluebell, Skippack areas, PA`, painting/carpentry pages, and basement-specific location pages.
 
-Recommendation: LambertWorks should compete first with focused service + location content, not broad generic handyman copy. The first content push should target four practical topics: handyman repair lists, drywall repair, basement finishing/remodeling, and deck/patio/exterior repairs around Plymouth Meeting and nearby towns.
+Recommendation: LambertWorks should compete first with focused service + location content, not broad generic handyman copy. The first content push should target four practical topics: handyman repair lists, drywall repair, basement finishing/remodeling, and deck/patio/exterior repairs around Plymouth meeting, bluebell, Skippack areas.
 
 Positioning update: promote `honey-do list` service as the homeowner-friendly entry point for bundled small repairs. Use it as a practical phrase for repair lists, weekend projects, and household fixes without relying on outdated gender assumptions.
 
@@ -20,10 +21,10 @@ Positioning update: promote `honey-do list` service as the homeowner-friendly en
 
 Competitors are targeting specific pages around service + geography:
 
-- `Drywall Repair in Plymouth Meeting, PA`
-- `Handyman Services in Plymouth Meeting, PA`
-- `Handyman in Plymouth Meeting, Pennsylvania`
-- Basement waterproofing/foundation pages for Plymouth Meeting
+- `Drywall Repair in Plymouth meeting, bluebell, Skippack areas`
+- `Handyman Services in Plymouth meeting, bluebell, Skippack areas`
+- `Handyman in Plymouth meeting, bluebell, Skippack areas, Pennsylvania`
+- Basement waterproofing/foundation pages for Plymouth meeting, bluebell, Skippack areas
 
 This means LambertWorks should not rely only on a homepage section if the goal is organic visibility.
 

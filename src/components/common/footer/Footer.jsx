@@ -41,7 +41,7 @@ const Footer = () => {
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-        Expert handyman services based near 821 Cherry Ln, Plymouth Meeting, PA 19462. Contact{" "}
+        Expert handyman services based near Plymouth meeting, bluebell, Skippack areas. Contact{" "}
         <a
           href="mailto:hello@lambertworks.us"
           className="underline font-bold"

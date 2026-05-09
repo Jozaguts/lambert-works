@@ -57,6 +57,8 @@ const setJsonLd = (post, canonicalUrl) => {
     },
     areaServed: [
       "Plymouth Meeting",
+      "bluebell",
+      "Skippack areas",
       "Whitemarsh Township",
       "Lafayette Hill",
       "Conshohocken",
@@ -159,7 +161,7 @@ const BlogPost = () => {
                   Request a local estimate
                 </h2>
                 <p className="mt-3 text-[16px] leading-7 text-gray-700">
-                  LambertWorks is based near 821 Cherry Ln, Plymouth Meeting,
+                  LambertWorks is based near Plymouth meeting, bluebell, Skippack areas,
                   PA 19462. Share the repair, room, or outdoor area you need
                   reviewed and get a practical next step.
                 </p>

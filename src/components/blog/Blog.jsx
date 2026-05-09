@@ -28,7 +28,7 @@ const Blog = () => {
       <div className="max-w-135 text-center mx-auto pb-17.5">
         <p className="section-title pb-6">Home Repair Notes</p>
         <p className="text-xs xs:text-[16px] md:text-lg text-gray-400">
-          Local repair notes for Plymouth Meeting homeowners comparing drywall, basements, patios, painting, carpentry, and practical handyman work.
+          Local repair notes for Plymouth meeting, bluebell, Skippack areas homeowners comparing drywall, basements, patios, painting, carpentry, and practical handyman work.
         </p>
       </div>
       <Swiper

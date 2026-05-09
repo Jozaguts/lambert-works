@@ -9,7 +9,7 @@ const WorkTogether = () => {
           Have a Repair or Remodel on Your List?
         </p>
         <p className="text-[#A5ACB5] text-xs sm:text-lg font-normal text-center pb-8">
-          Send the details to LambertWorks and get a practical estimate for your Plymouth Meeting area project.
+          Send the details to LambertWorks and get a practical estimate for your Plymouth meeting, bluebell, Skippack areas project.
         </p>
         <a
           href="mailto:hello@lambertworks.us"

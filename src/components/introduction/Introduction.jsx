@@ -36,7 +36,7 @@ const Introduction = () => {
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            LambertWorks helps homeowners near <span className="bg-highlight">821 Cherry Ln, Plymouth Meeting</span> finish the repairs, touch-ups, installs, and household fixes that keep sitting on the honey-do list.
+            LambertWorks helps homeowners near <span className="bg-highlight">Plymouth meeting, bluebell, Skippack areas</span> finish the repairs, touch-ups, installs, and household fixes that keep sitting on the honey-do list.
           </p>
           <p className="text-center lg:text-start">
             <a

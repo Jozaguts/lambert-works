@@ -36,7 +36,7 @@ const Profile = () => {
               You know the list. It starts with “fix that squeaky drawer” and somehow turns into patch the wall, hang the shelf, repair the trim, touch up the paint, fix the pantry door, and figure out what that noise is.
             </p>
             <p className="mt-3">
-              That is the work LambertWorks does most: practical household repairs, touch-ups, installs, and small fixes bundled into one clear walkthrough with a local handyman near Plymouth Meeting.
+              That is the work LambertWorks does most: practical household repairs, touch-ups, installs, and small fixes bundled into one clear walkthrough with a local handyman near Plymouth meeting, bluebell, Skippack areas.
             </p>
             <p className="mt-3 font-medium text-charcoal">
               Send the list. We’ll help you sort it, price it, and start checking things off.

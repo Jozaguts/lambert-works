@@ -42,4 +42,4 @@ Keep local secrets in `.env.local` and do not commit production credentials. Rev
 ## profesional email
 hello@lambertworks.us
 ## address
-821 cherry ln Plymouth meeting pa 19462
+Plymouth meeting, bluebell, Skippack areas
