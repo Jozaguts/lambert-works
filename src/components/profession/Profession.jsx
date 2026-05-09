@@ -4,32 +4,32 @@ const rolesData = [
   {
     id: 1,
     title: "Carpentry",
-    description: "Custom woodwork, framing, trim installation, shelving, and repairs.",
+    description: "Trim, framing, shelving, repairs, and practical woodwork finished cleanly.",
   },
   {
     id: 2,
     title: "Concrete",
-    description: "Concrete slabs, walkways, patios, repairs, and finishing work.",
+    description: "Slabs, walkways, patios, patch repairs, and durable surface finishing.",
   },
   {
     id: 3,
     title: "Basement Remodeling",
-    description: "Transform unfinished basements into functional living spaces.",
+    description: "Turn unfinished or outdated basements into usable, comfortable space.",
   },
   {
     id: 4,
     title: "Painting",
-    description: "Interior and exterior painting with clean finishes and durable materials.",
+    description: "Interior and exterior painting with proper prep, sharp lines, and lasting coverage.",
   },
   {
     id: 5,
     title: "Drywall & Sheetrock",
-    description: "Drywall installation, patching, texture matching, and repairs.",
+    description: "Sheetrock installation, patching, texture matching, sanding, and repair.",
   },
   {
     id: 6,
     title: "Patios & Outdoor Areas",
-    description: "Outdoor improvements including patios, seating areas, and concrete surfaces.",
+    description: "Patio improvements, seating areas, exterior fixes, and outdoor surfaces.",
   },
 ];
 

@@ -6,7 +6,7 @@ const navItems = [
   { id: 2, name: "About", url: "About" },
   { id: 3, name: "Process", url: "Process" },
   { id: 4, name: "Portfolio", url: "Portfolio" },
-  { id: 5, name: "Blog", url: "Blog" },
+  { id: 5, name: "Repair Notes", url: "Blog" },
   { id: 6, name: "Services", url: "Services" },
   { id: 7, name: "Contact", url: "Contact" },
 ];
@@ -19,7 +19,7 @@ const Footer = () => {
         <a href="#" className="flex items-center border-0">
           <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
           <p className="text-3xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-            Brooklyn
+            LambertWorks
           </p>
         </a>
         <div className="mx-7 max-md:my-7 text-center">
@@ -35,17 +35,16 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-[12px] sm:text-[16px]">
-          Copyright &copy; {copyrightYear} Picto.
+          Copyright &copy; {copyrightYear} LambertWorks.
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-        Developed with ❤️ by{" "}
+        Expert handyman services based near 821 Cherry Ln, Plymouth Meeting, PA 19462. Contact{" "}
         <a
-          href="https://www.themewagon.com"
+          href="mailto:hello@lambertworks.us"
           className="underline font-bold"
-          target="_blank"
         >
-          ThemeWagon
+          hello@lambertworks.us
         </a>
       </p>
     </div>

@@ -19,8 +19,7 @@ const Form = () => {
   return (
     <div>
       <p className="text-[12px] xs:text-[14px] max-lg:text-center sm:text-lg font-normal text-soft-dark">
-        I'm always open to discussing product design work or partnership
-        opportunities.
+        Share the repair, room, or exterior area you need help with. Include photos by email if that makes the scope easier to understand.
       </p>
       <div className="mx-2">
         <form className="flex flex-col gap-4 mt-4">
@@ -46,13 +45,13 @@ const Form = () => {
           <div className="flex max-xs:flex-col max-xs:gap-4">
             <input
               type="text"
-              placeholder="Budget*"
+              placeholder="Preferred Timing*"
               className={`${commonClass} xs:w-[50%] me-5`}
               required
             />
             <input
               type="text"
-              placeholder="Subject*"
+              placeholder="Project Type*"
               className={`${commonClass}`}
               required
             />
@@ -60,7 +59,7 @@ const Form = () => {
 
           <input
             type="text"
-            placeholder="Message*"
+            placeholder="Project Details*"
             className={`${commonClass}`}
             required
           />

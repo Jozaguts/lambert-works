@@ -9,11 +9,11 @@ const MonoBlog = ({ data }) => {
         />
         <div className="m-6">
           <p className="text-[10px] xs:text-[14px] font-normal text-gray-400 ">
-            {data?.date} / {data?.comments} Comments
+            {data?.date}
           </p>
           <p className="text-[14px] xs:text-lg font-medium text-[#333333]">
-            {data?.title.length > 40
-              ? `${data?.title.slice(0, 40)}...`
+            {data?.title.length > 52
+              ? `${data?.title.slice(0, 52)}...`
               : data?.title}
           </p>
         </div>

@@ -33,28 +33,28 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            Built on Quality, Reliability & Honest Work
+            Built for Homeowners Who Want It Done Right
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              We help homeowners improve and maintain their properties with dependable handyman and remodeling services.
+              LambertWorks is a local handyman service focused on careful repairs, useful upgrades, and remodeling work that holds up after the tools are packed away.
             </p>
             <p className="mt-3">
-              From drywall and painting to patios, carpentry, and basement projects, we focus on clean results, clear communication, and long-lasting workmanship.
+              From drywall patches and fresh paint to patios, carpentry, concrete, and finished basements, every job starts with a clear scope and ends with a clean walkthrough.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">
             <a
               className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
-              href="#!"
+              href="#services"
             >
               Our Services
             </a>
             <a
               className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-primary bg-white duration-300 transition-all hover:text-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
-              href="#!"
+              href="mailto:hello@lambertworks.us"
             >
               <FontAwesomeIcon icon={faDownload} /> Request Estimate
             </a>

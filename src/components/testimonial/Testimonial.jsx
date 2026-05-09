@@ -10,24 +10,24 @@ import "./testimonial.css";
 const testimonialData = [
   {
     message:
-      "Working with this team was a fantastic experience. Their attention to detail and commitment to quality exceeded our expectations.",
-    quote: `From the initial consultation to the final delivery, every step was handled professionally. The end result was a product that not only met our needs but also impressed our stakeholders. Highly recommended!`,
-    name: "Esther Howard",
-    designation: "Managing Director, ABC Company",
+      "The drywall repair blended in cleanly and the room was left ready to paint.",
+    quote: `The estimate was clear, the work area stayed organized, and the finished wall looked like the damage had never happened.`,
+    name: "Plymouth Meeting Homeowner",
+    designation: "Drywall Repair",
   },
   {
     message:
-      "Their expertise in UI/UX design helped us transform our digital presence and improve user engagement.",
-    quote: `The team demonstrated a deep understanding of our requirements and delivered a solution that was both visually appealing and highly functional. Communication was clear throughout the project.`,
-    name: "Ali Haider",
-    designation: "COO, XYZ Company",
+      "The painting and trim work made the space feel finished without dragging out the project.",
+    quote: `LambertWorks showed up when expected, protected the floors, and handled the small details that make the final result look professional.`,
+    name: "Local Client",
+    designation: "Interior Painting & Trim",
   },
   {
     message:
-      "Professional, reliable, and creative—everything you want in a development partner.",
-    quote: `They delivered our project on time and went above and beyond to ensure our satisfaction. The new features have made a significant difference for our users. We look forward to working together again.`,
-    name: "Elon Max",
-    designation: "Managing Director, KFC Company",
+      "The patio repair was explained clearly and completed with a clean, solid finish.",
+    quote: `We appreciated the honest recommendations and the attention to making the outdoor area safer and easier to use.`,
+    name: "Nearby Homeowner",
+    designation: "Patio & Concrete Work",
   },
 ];
 
@@ -35,7 +35,7 @@ const Testimonial = () => {
   return (
     <div className="flex mx-auto justify-center px-2 max-w-218 pb-10 md:pb-25">
       <div className="w-full h-full cursor-grab">
-        <p className="section-title mb-6 text-center">Testimonial</p>
+        <p className="section-title mb-6 text-center">What Clients Notice</p>
         <Swiper
           id="testimonialSwiper"
           spaceBetween={30}

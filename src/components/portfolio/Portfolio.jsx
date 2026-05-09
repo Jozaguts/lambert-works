@@ -13,7 +13,7 @@ const projectData = [
     category: "DRYWALL & SHEETROCK",
     title: "Drywall Repair & Finishing",
     description:
-        "Professional drywall installation, patch repairs, texture matching, and smooth finishing for residential spaces.",
+        "Wall and ceiling repairs, sheetrock installation, texture matching, and smooth finishing for lived-in homes.",
     link: "#!",
   },
   {
@@ -22,7 +22,7 @@ const projectData = [
     category: "INTERIOR PAINTING",
     title: "Interior Painting Project",
     description:
-        "Clean and modern interior painting with detailed preparation, premium materials, and long-lasting finishes.",
+        "Room-by-room painting with careful prep, clean edges, protected surfaces, and durable finishes.",
     link: "#!",
   },
   {
@@ -31,7 +31,7 @@ const projectData = [
     category: "CONCRETE WORK",
     title: "Concrete Patio Installation",
     description:
-        "Custom concrete patios and outdoor surfaces designed for durability, functionality, and curb appeal.",
+        "Concrete patios, walkways, and exterior surfaces built for daily use, drainage, and curb appeal.",
     link: "#!",
   },
   {
@@ -40,7 +40,7 @@ const projectData = [
     category: "CARPENTRY",
     title: "Custom Carpentry Solutions",
     description:
-        "Built custom wood structures, trim work, shelving, and framing with precision craftsmanship and attention to detail.",
+        "Trim, framing, shelving, and wood repairs handled with tight measurements and a clean finish.",
     link: "#!",
   },
   {
@@ -49,7 +49,7 @@ const projectData = [
     category: "BASEMENT REMODELING",
     title: "Finished Basement Remodel",
     description:
-        "Transforming unfinished basements into comfortable, functional, and modern living spaces for families.",
+        "Basement upgrades that add usable family space, storage, lighting, and a more finished feel.",
     link: "#!",
   },
   {
@@ -58,7 +58,7 @@ const projectData = [
     category: "OUTDOOR & PATIOS",
     title: "Outdoor Living Area Upgrade",
     description:
-        "Patio improvements, outdoor remodeling, and functional exterior upgrades built for comfort and durability.",
+        "Exterior repairs and patio upgrades that make outdoor areas safer, cleaner, and easier to enjoy.",
     link: "#!",
   },
 ];
@@ -73,8 +73,7 @@ const Portfolio = () => {
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
           <p className="section-title ">Recent Projects</p>
           <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
-            Here's a selection of my recent work, showcasing my skills in
-            creating user-centric and visually appealing interfaces.
+            A quick look at the types of repairs, remodels, and exterior upgrades LambertWorks handles for local homeowners.
           </p>
         </div>
       </div>
@@ -90,7 +89,7 @@ const Portfolio = () => {
           href="#!"
           className="btn btn-primary py-3 px-6 mt-12.5 text-center text-[16px] font-semibold"
         >
-          More Project
+          Request Similar Work
         </a>
       </div>
     </div>

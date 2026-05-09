@@ -6,17 +6,17 @@ import InformationSummary from "./InformationSummary";
 const informationSummaryData = [
   {
     id: 1,
-    title: "Years Experience",
+    title: "Years on the Job",
     description: "10+",
   },
   {
     id: 2,
-    title: "Projects Completed",
+    title: "Repairs & Remodels",
     description: "250+",
   },
   {
     id: 3,
-    title: "Happy Clients",
+    title: "Local Clients",
     description: "100+",
   },
 ];
@@ -30,26 +30,26 @@ const Introduction = () => {
       <div className="w-full flex flex-col justify-between max-lg:text-center">
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
-            Reliable Handyman &
+            Expert Handyman in
             <span className="text-nowrap shrink-0 inline-block w-full">
-             Home Remodeling Services
+             Plymouth Meeting, PA
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            Professional carpentry,     <span className="bg-highlight">concrete</span> {" "}, drywall, painting, patios, basement remodeling, and <span className="bg-highlight"> home improvement solutions</span>  built with quality craftsmanship.
+            LambertWorks helps homeowners near <span className="bg-highlight">821 Cherry Ln</span> with dependable drywall, painting, carpentry, concrete, patios, basement remodeling, and practical home repairs done with clean workmanship.
           </p>
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:example@gmail.com"
+              href="mailto:hello@lambertworks.us"
             >
               Get Free Estimate
             </a>
             <a
                 className="btn-secondary ml-2 btn btn-xs xxs:btn-lg text-white"
-                href="mailto:example@gmail.com"
+                href="#portfolio"
             >
-              View Our Work
+              See Project Types
             </a>
           </p>
         </div>
