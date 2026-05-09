@@ -16,6 +16,12 @@ const MonoBlog = ({ data }) => {
               ? `${data?.title.slice(0, 52)}...`
               : data?.title}
           </p>
+          <p className="mt-3 text-[12px] xs:text-[14px] text-gray-600">
+            {data?.excerpt}
+          </p>
+          <p className="mt-4 text-[12px] xs:text-[14px] font-semibold text-charcoal">
+            Request an estimate
+          </p>
         </div>
       </a>
     </div>
