@@ -13,13 +13,13 @@ const Address = ({ item }) => {
     >
       <div
         className={`h-10 md:h-12 aspect-square ${
-          hover ? "bg-primary" : "bg-[#EDD8FF80]"
+          hover ? "bg-primary" : "bg-warm-surface"
         } center rounded-[4px]`}
       >
         <FontAwesomeIcon
           icon={item?.icon}
           className={`text-lg md:text-xl ${
-            hover ? "text-white" : "text-primary"
+            hover ? "text-ink" : "text-charcoal"
           }`}
         />
       </div>

@@ -27,8 +27,8 @@ const menu = navItems.map((item) => (
       spy={true}
       offset={-140}
       activeStyle={{
-        backgroundColor: "#9929fb",
-        color: "white",
+        backgroundColor: "#fbb040",
+        color: "#010101",
       }}
       className={`hover:text-primary px-5 py-3 mx-1`}
     >
@@ -92,7 +92,7 @@ const NavBar = () => {
             duration={900}
             className="flex items-center border-0 lg:max-xxl:ps-5"
           >
-            <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
+            <img src={logo} className="h-8 sm:h-14 w-full max-w-[200px] rounded-2xl" alt="logo" />
             <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
               LambertWorks
             </p>
