@@ -1,15 +1,15 @@
 import Projects from "./Projects";
-import card1 from "../../assets/images/portfolio-images/card-1.png";
-import card2 from "../../assets/images/portfolio-images/card-2.png";
-import card3 from "../../assets/images/portfolio-images/card-3.png";
-import card4 from "../../assets/images/portfolio-images/card-4.png";
-import card5 from "../../assets/images/portfolio-images/card-5.png";
-import card6 from "../../assets/images/portfolio-images/card-6.png";
+import drywallRepair from "../../assets/images/IMG_6898.jpg";
+import interiorPainting from "../../assets/images/IMG-20260401.jpg";
+import concreteWork from "../../assets/images/53A11B98-E6B1-481F-A9FC-8465589049FB.jpg.jpg";
+import carpentryWork from "../../assets/images/IMG_6595.jpg";
+import basementRemodel from "../../assets/images/IMG-20260401-WA0010.jpg.jpg";
+import outdoorUpgrade from "../../assets/images/IMG_7150-1.jpg";
 
 const projectData = [
   {
     id: 1,
-    image: card1,
+    image: drywallRepair,
     category: "DRYWALL & SHEETROCK",
     title: "Drywall Repair & Finishing",
     description:
@@ -18,7 +18,7 @@ const projectData = [
   },
   {
     id: 2,
-    image: card2,
+    image: interiorPainting,
     category: "INTERIOR PAINTING",
     title: "Interior Painting Project",
     description:
@@ -27,7 +27,7 @@ const projectData = [
   },
   {
     id: 3,
-    image: card3,
+    image: concreteWork,
     category: "CONCRETE WORK",
     title: "Concrete Patio Installation",
     description:
@@ -36,7 +36,7 @@ const projectData = [
   },
   {
     id: 4,
-    image: card4,
+    image: carpentryWork,
     category: "CARPENTRY",
     title: "Custom Carpentry Solutions",
     description:
@@ -45,7 +45,7 @@ const projectData = [
   },
   {
     id: 5,
-    image: card5,
+    image: basementRemodel,
     category: "BASEMENT REMODELING",
     title: "Finished Basement Remodel",
     description:
@@ -54,7 +54,7 @@ const projectData = [
   },
   {
     id: 6,
-    image: card6,
+    image: outdoorUpgrade,
     category: "OUTDOOR & PATIOS",
     title: "Outdoor Living Area Upgrade",
     description:
