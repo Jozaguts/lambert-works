@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
+
 const MonoBlog = ({ data }) => {
   return (
     <div className="overflow-hidden rounded-lg border border-gray-100 hover:shadow-2xl bg-white shadow-gray-300 transition-all duration-300">
-      <a href={data?.link}>
+      <Link to={`/blog/${data?.slug}`}>
         <img
           src={data?.image}
-          alt="Blog"
+          alt={`${data?.primaryKeyword} article`}
           className="w-full h-56.5 object-cover "
         />
         <div className="m-6">
           <p className="text-[10px] xs:text-[14px] font-normal text-gray-400 ">
-            {data?.date}
+            {data?.category}
           </p>
           <p className="text-[14px] xs:text-lg font-medium text-[#333333]">
             {data?.title.length > 52
@@ -20,10 +22,10 @@ const MonoBlog = ({ data }) => {
             {data?.excerpt}
           </p>
           <p className="mt-4 text-[12px] xs:text-[14px] font-semibold text-charcoal">
-            Request an estimate
+            Read the guide
           </p>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };
