@@ -11,7 +11,7 @@ const informationSummaryData = [
   },
   {
     id: 2,
-    title: "Repairs & Remodels",
+    title: "Honey-Do Lists",
     description: "250+",
   },
   {
@@ -30,26 +30,26 @@ const Introduction = () => {
       <div className="w-full flex flex-col justify-between max-lg:text-center">
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
-            Expert Handyman in
+            Honey-Do List
             <span className="text-nowrap shrink-0 inline-block w-full">
-             Plymouth Meeting, PA
+             Handyman Service
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            LambertWorks helps homeowners near <span className="bg-highlight">821 Cherry Ln</span> with dependable drywall, painting, carpentry, concrete, patios, basement remodeling, and practical home repairs done with clean workmanship.
+            LambertWorks helps homeowners near <span className="bg-highlight">821 Cherry Ln, Plymouth Meeting</span> finish the repairs, touch-ups, installs, and household fixes that keep sitting on the honey-do list.
           </p>
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
-              href="mailto:hello@lambertworks.us"
+              href="#contact"
             >
-              Get Free Estimate
+              Start Your Honey-Do List
             </a>
             <a
                 className="btn-secondary ml-2 btn btn-xs xxs:btn-lg text-white"
                 href="#projects"
             >
-              See Project Types
+              What We Can Handle
             </a>
           </p>
         </div>

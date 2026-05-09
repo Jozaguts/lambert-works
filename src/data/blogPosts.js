@@ -9,28 +9,29 @@ export const blogPosts = [
     slug: "handyman-plymouth-meeting-pa",
     image: handymanRepairs,
     category: "Handyman Plymouth Meeting",
-    title: "Handyman in Plymouth Meeting, PA: Small Repairs That Keep a Home Moving",
-    seoTitle: "Handyman in Plymouth Meeting, PA | LambertWorks",
+    title: "Honey-Do List Handyman in Plymouth Meeting, PA",
+    seoTitle: "Honey-Do List Handyman Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Need a handyman in Plymouth Meeting, PA? LambertWorks handles drywall, paint, trim, repairs, patios, and practical home projects near Cherry Ln.",
+      "Need help with a honey-do list in Plymouth Meeting, PA? LambertWorks handles drywall, paint, trim, repairs, patios, and home projects near Cherry Ln.",
     excerpt:
-      "A practical repair-list guide for homeowners near Cherry Ln, Whitemarsh Township, Lafayette Hill, and Montgomery County.",
+      "The main service for homeowners who need a trusted handyman to handle the household repair list in one clear visit.",
     primaryKeyword: "handyman Plymouth Meeting PA",
     keywords: [
+      "honey do list handyman Plymouth Meeting PA",
       "handyman Plymouth Meeting PA",
       "home repair Plymouth Meeting",
       "local handyman Montgomery County",
       "handyman near Cherry Ln",
     ],
-    tags: ["Handyman", "Home Repair", "Plymouth Meeting", "Montgomery County"],
+    tags: ["Honey-Do List", "Handyman", "Home Repair", "Plymouth Meeting"],
     sections: [
       {
-        heading: "A practical handyman for real home repair lists",
-        body: "Most homeowners do not need a large remodeling company for every project. They need someone who can look at the repair list, explain what matters first, and handle the work cleanly. LambertWorks helps with drywall patches, trim, painting prep, small carpentry, exterior fixes, and other practical repairs around Plymouth Meeting.",
+        heading: "A practical handyman for your honey-do list",
+        body: "Most homeowners do not need a large remodeling company for every project. They need someone who can look at the honey-do list, explain what matters first, and handle the work cleanly. This is the core LambertWorks service: bundled household repairs, touch-ups, installs, and fixes around Plymouth Meeting.",
       },
       {
-        heading: "What to group into one estimate",
-        body: "If you have several small repairs, group them before requesting an estimate. Wall damage, loose trim, worn caulk, paint touch-ups, door adjustments, shelving, and minor exterior repairs can often be reviewed together. This gives you a clearer scope and helps the work get done with less back-and-forth.",
+        heading: "What belongs on a honey-do list",
+        body: "Common items include wall damage, loose trim, worn caulk, paint touch-ups, door adjustments, shelving, small carpentry, drywall patches, patio fixes, and minor exterior repairs. Grouping those items into one estimate gives you a clearer scope and helps the work get done with less back-and-forth.",
       },
       {
         heading: "Local service near Cherry Ln and nearby towns",

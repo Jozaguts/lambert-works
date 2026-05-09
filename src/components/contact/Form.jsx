@@ -41,7 +41,7 @@ const Form = () => {
   return (
     <div>
       <p className="text-[12px] xs:text-[14px] max-lg:text-center sm:text-lg font-normal text-soft-dark">
-        Share the repair, room, or exterior area you need help with. Include photos by email if that makes the scope easier to understand.
+        Share your honey-do list, repair list, room, or exterior area you need help with. Include photos by email if that makes the scope easier to understand.
       </p>
       <div className="mx-2">
         <form className="flex flex-col gap-4 mt-4">

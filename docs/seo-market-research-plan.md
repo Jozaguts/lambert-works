@@ -12,6 +12,8 @@ The local search surface around Plymouth Meeting is already competitive for broa
 
 Recommendation: LambertWorks should compete first with focused service + location content, not broad generic handyman copy. The first content push should target four practical topics: handyman repair lists, drywall repair, basement finishing/remodeling, and deck/patio/exterior repairs around Plymouth Meeting and nearby towns.
 
+Positioning update: promote `honey-do list` service as the homeowner-friendly entry point for bundled small repairs. Use it as a practical phrase for repair lists, weekend projects, and household fixes without relying on outdated gender assumptions.
+
 ## Key Findings
 
 ### Fact: Competitors Use Service-Location Pages
@@ -63,6 +65,7 @@ Basement waterproofing and foundation repair competitors are more specialized. L
 ## Implications
 
 - Focus on service + location combinations.
+- Use `honey-do list handyman` as a conversion-focused angle for bundled household repairs.
 - Mention nearby service areas naturally: Plymouth Meeting, Whitemarsh Township, Lafayette Hill, Conshohocken, Blue Bell, Norristown, and Montgomery County.
 - Tie each article to a real homeowner problem and a clear estimate CTA.
 - Use real project photos from `src/assets/images` instead of stock-like blog imagery.
@@ -190,6 +193,8 @@ For basement content, LambertWorks should avoid competing directly on waterproof
 - handyman Plymouth Meeting PA
 - handyman near Plymouth Meeting PA
 - handyman near 821 Cherry Ln
+- honey do list handyman Plymouth Meeting PA
+- honey do list repairs Montgomery County
 - home repair Plymouth Meeting PA
 - local handyman Montgomery County PA
 
