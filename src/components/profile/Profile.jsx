@@ -1,7 +1,8 @@
 import person from "../../assets/images/collage2.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faFileSignature } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
+import { Link } from "react-scroll";
 
 const Profile = () => {
   return (
@@ -52,12 +53,15 @@ const Profile = () => {
             >
               Our Services
             </a>
-            <a
+            <Link
               className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-primary bg-white duration-300 transition-all hover:text-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
-              href="mailto:hello@lambertworks.us"
+              to="contact"
+              smooth={true}
+              duration={900}
+              offset={-120}
             >
-              <FontAwesomeIcon icon={faDownload} /> Request Estimate
-            </a>
+              <FontAwesomeIcon icon={faFileSignature} /> Request Estimate
+            </Link>
           </div>
         </div>
       </div>

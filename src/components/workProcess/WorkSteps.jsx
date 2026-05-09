@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const WorkSteps = ({ data, style }) => {
   const [hover, setHover] = useState(false);
@@ -15,14 +16,10 @@ const WorkSteps = ({ data, style }) => {
           hover ? "bg-picto-primary" : "bg-warm-surface"
         } text-center center rounded-md`}
       >
-        <svg
-          viewBox="0 0 32 32"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="max-sm:p-2 sm:w-8 sm:h-8"
-        >
-          <path d={data?.svgPath} fill={`${hover ? "#010101" : "#333335"}`} />
-        </svg>
+        <FontAwesomeIcon
+          icon={data?.icon}
+          className={`text-lg sm:text-3xl ${hover ? "text-ink" : "text-charcoal"}`}
+        />
       </div>
       <div className="mt-3 xs:mt-4 sm:mt-8">
         <p className="font-semibold sm:text-xl">{`${data?.id}. ${data?.title}`}</p>
