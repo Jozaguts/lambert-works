@@ -38,3 +38,6 @@ Pull requests should include a short summary, screenshots for visual changes, no
 ## Security & Configuration Tips
 
 Keep local secrets in `.env.local` and do not commit production credentials. Review generated assets before committing large binaries, and prefer optimized web images for landing-page performance.
+
+## profesional email
+hello@lambertworks.us
