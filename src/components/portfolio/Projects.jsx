@@ -2,6 +2,21 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Projects = ({ data }) => {
+  const handleRequestService = (event) => {
+    event.preventDefault();
+
+    window.dispatchEvent(
+      new CustomEvent("lambertworks:project-type-selected", {
+        detail: data?.category,
+      })
+    );
+
+    document.querySelector("#contact")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <div className="max-w-106 rounded-lg outline-[#FFFFFF] hover:shadow-2xl duration-300 transition-all shadow-gray-300 border border-gray-200">
       <img
@@ -21,7 +36,8 @@ const Projects = ({ data }) => {
           {data?.description}
         </p>
         <a
-          href={data?.link}
+          href="#contact"
+          onClick={handleRequestService}
           className="btn hover:border-primary hover:text-primary bg-white text-sm xs:text-[16px] font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 mt-5 xs:py-5.75 px-6 max-sm:w-full"
         >
           Request This Service

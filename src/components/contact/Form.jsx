@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 const telegramSVG = (
   <svg
     className="w-4 md:w-6 aspect-square"
@@ -16,6 +18,26 @@ const commonClass =
   "input input-lg border-0 border-b-2 focus:outline-none focus:placeholder:text-primary placeholder:text-[15px] md:placeholder:text-lg focus:border-primary border-[#E6E8EB] w-full rounded-none px-0";
 
 const Form = () => {
+  const [projectType, setProjectType] = useState("");
+
+  useEffect(() => {
+    const handleProjectTypeSelected = (event) => {
+      setProjectType(event.detail || "");
+    };
+
+    window.addEventListener(
+      "lambertworks:project-type-selected",
+      handleProjectTypeSelected
+    );
+
+    return () => {
+      window.removeEventListener(
+        "lambertworks:project-type-selected",
+        handleProjectTypeSelected
+      );
+    };
+  }, []);
+
   return (
     <div>
       <p className="text-[12px] xs:text-[14px] max-lg:text-center sm:text-lg font-normal text-soft-dark">
@@ -52,6 +74,8 @@ const Form = () => {
             <input
               type="text"
               placeholder="Project Type*"
+              value={projectType}
+              onChange={(event) => setProjectType(event.target.value)}
               className={`${commonClass}`}
               required
             />

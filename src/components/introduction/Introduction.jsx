@@ -47,7 +47,7 @@ const Introduction = () => {
             </a>
             <a
                 className="btn-secondary ml-2 btn btn-xs xxs:btn-lg text-white"
-                href="#portfolio"
+                href="#projects"
             >
               See Project Types
             </a>

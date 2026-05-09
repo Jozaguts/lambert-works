@@ -15,7 +15,7 @@ Professional handyman and remodeling landing page built for local service busine
 
 - Responsive landing page
 - Services showcase
-- Project portfolio
+- Projects
 - Testimonials
 - Contact form
 - SEO optimized structure

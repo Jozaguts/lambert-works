@@ -4,7 +4,7 @@
 
 This is a Vite React landing page project. The app entry point is `src/main.jsx`, global styles live in `index.css`, and routing is defined in `src/routes/Router.jsx`. Page-level composition starts in `src/pages/Home.jsx` and shared layout code is in `src/layouts/Main.jsx`.
 
-Feature UI is organized under `src/components/` by section, for example `contact/`, `portfolio/`, `testimonial/`, `blog/`, and `common/`. Static assets used by components live in `src/assets/`; public assets that should be served directly live in `public/`.
+Feature UI is organized under `src/components/` by section, for example `contact/`, `projects/`, `testimonial/`, `blog/`, and `common/`. Static assets used by components live in `src/assets/`; public assets that should be served directly live in `public/`.
 
 ## Build, Test, and Development Commands
 
@@ -31,7 +31,7 @@ No test runner is currently configured in `package.json`. For now, verify change
 
 ## Commit & Pull Request Guidelines
 
-Git history is not available in this checkout, so no repository-specific commit convention can be inferred. Use concise, imperative commit messages such as `Update contact form layout` or `Fix portfolio image sizing`.
+Git history is not available in this checkout, so no repository-specific commit convention can be inferred. Use concise, imperative commit messages such as `Update contact form layout` or `Fix projects image sizing`.
 
 Pull requests should include a short summary, screenshots for visual changes, notes about any asset updates, and the verification commands run. Link related issues when available.
 

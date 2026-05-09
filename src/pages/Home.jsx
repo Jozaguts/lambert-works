@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Introduction from "../components/introduction/Introduction";
 import Profile from "../components/profile/Profile";
 import WorkProcess from "../components/workProcess/WorkProcess";
@@ -11,6 +12,20 @@ import Contact from "../components/contact/Contact";
 import "../../index.css";
 
 const Home = () => {
+  useEffect(() => {
+    if (!window.location.hash) {
+      return;
+    }
+
+    const section = document.querySelector(window.location.hash);
+
+    if (section) {
+      window.setTimeout(() => {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 100);
+    }
+  }, []);
+
   return (
     <div className="relative">
       <div className="introduction-profile-background">
