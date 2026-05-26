@@ -41,7 +41,7 @@ const Footer = () => {
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-        Expert handyman services based near Plymouth meeting, bluebell, Skippack areas. Contact{" "}
+        Expert handyman services based near Plymouth Meeting, Blue Bell, and Skippack, PA. Contact{" "}
         <a
           href="mailto:hello@lambertworks.us"
           className="underline font-bold"

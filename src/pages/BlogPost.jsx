@@ -57,13 +57,13 @@ const setJsonLd = (post, canonicalUrl) => {
     },
     areaServed: [
       "Plymouth Meeting",
-      "bluebell",
-      "Skippack areas",
+      "Blue Bell",
+      "Skippack",
       "Whitemarsh Township",
       "Lafayette Hill",
       "Conshohocken",
-      "Blue Bell",
-      "Montgomery County",
+      "Norristown",
+      "Montgomery County, PA",
     ],
     keywords: post.keywords.join(", "),
   });
@@ -161,9 +161,9 @@ const BlogPost = () => {
                   Request a local estimate
                 </h2>
                 <p className="mt-3 text-[16px] leading-7 text-gray-700">
-                  LambertWorks is based near Plymouth meeting, bluebell, Skippack areas,
-                  PA 19462. Share the repair, room, or outdoor area you need
-                  reviewed and get a practical next step.
+                  LambertWorks is based near Plymouth Meeting, PA 19462, serving
+                  Blue Bell, Skippack, and Montgomery County. Share the repair,
+                  room, or outdoor area you need reviewed and get a practical next step.
                 </p>
                 <div className="mt-5 flex flex-wrap gap-3">
                   <a className="btn btn-primary" href="/#contact">

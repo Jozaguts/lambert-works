@@ -9,28 +9,29 @@ export const blogPosts = [
     slug: "handyman-plymouth-meeting-pa",
     image: handymanRepairs,
     category: "Handyman Plymouth Meeting",
-    title: "Honey-Do List Handyman in PPlymouth meeting, bluebell, Skippack areas",
-    seoTitle: "Honey-Do List Handyman Plymouth meeting, bluebell, Skippack areas | LambertWorks",
+    title: "Honey-Do List Handyman in Plymouth Meeting, PA",
+    seoTitle: "Honey-Do List Handyman Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Need help with a honey-do list in Plymouth meeting, bluebell, Skippack areas, PA? LambertWorks handles drywall, paint, trim, repairs, patios, and home projects near Cherry Ln.",
+      "Need help with a honey-do list in Plymouth Meeting, PA? LambertWorks handles drywall, paint, trim, repairs, patios, and home projects near Blue Bell and Skippack.",
     excerpt:
       "The main service for homeowners who need a trusted handyman to handle the household repair list in one clear visit.",
-    primaryKeyword: "handyman Plymouth meeting, bluebell, Skippack areas",
+    primaryKeyword: "handyman Plymouth Meeting PA",
     keywords: [
-      "honey do list handyman Plymouth meeting, bluebell, Skippack areas",
-      "handyman Plymouth meeting, bluebell, Skippack areas",
-      "home repair Plymouth meeting, bluebell, Skippack areas",
+      "honey do list handyman Plymouth Meeting PA",
+      "handyman Plymouth Meeting PA",
+      "home repair Plymouth Meeting PA",
       "local handyman Montgomery County",
-      "handyman near Cherry Ln",
+      "handyman near Blue Bell PA",
+      "handyman near Skippack PA",
     ],
-    tags: ["Honey-Do List", "Handyman", "Home Repair", "Plymouth meeting","bluebell","Skippack areas"],
+    tags: ["Honey-Do List", "Handyman", "Home Repair", "Plymouth Meeting", "Blue Bell", "Skippack"],
     sections: [
       {
         heading: "A practical handyman for your honey-do list",
         body: "Most homeowners do not need a large remodeling company for every project. They need someone who can" +
             " look at the honey-do list, explain what matters first, and handle the work cleanly. This is the core" +
             " LambertWorks service: bundled household repairs, touch-ups, installs, and fixes around Plymouth" +
-            " meeting, bluebell, Skippack areas.",
+            " Meeting, Blue Bell, and Skippack, PA.",
       },
       {
         heading: "What belongs on a honey-do list",
@@ -38,7 +39,7 @@ export const blogPosts = [
       },
       {
         heading: "Local service near Cherry Ln and nearby towns",
-        body: "From 821 Cherry Ln, LambertWorks is positioned for homeowners in Plymouth meeting, bluebell, Skippack areas, Whitemarsh Township, Lafayette Hill, Conshohocken, Blue Bell, Norristown, and nearby Montgomery County neighborhoods.",
+        body: "From 821 Cherry Ln, LambertWorks is positioned for homeowners in Plymouth Meeting, Blue Bell, Skippack, Whitemarsh Township, Lafayette Hill, Conshohocken, Norristown, and nearby Montgomery County neighborhoods.",
       },
       {
         heading: "When to request help",
@@ -51,16 +52,16 @@ export const blogPosts = [
     slug: "drywall-repair-plymouth-meeting-pa",
     image: drywallRepair,
     category: "Drywall Repair",
-    title: "Drywall Repair in Plymouth meeting, bluebell, Skippack areas: Patch, Sand, Paint, and Finish",
-    seoTitle: "Drywall Repair Plymouth meeting, bluebell, Skippack areas | LambertWorks",
+    title: "Drywall Repair in Plymouth Meeting, PA: Patch, Sand, Paint, and Finish",
+    seoTitle: "Drywall Repair Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "LambertWorks provides drywall and sheetrock repair in Plymouth meeting, bluebell, Skippack areas, including patches, sanding, paint prep, and clean wall finishing.",
+      "LambertWorks provides drywall and sheetrock repair in Plymouth Meeting, PA, including patches, sanding, paint prep, and clean wall finishing near Blue Bell and Skippack.",
     excerpt:
       "How to think about sheetrock patches, sanding, paint prep, and clean wall repairs before requesting an estimate.",
-    primaryKeyword: "drywall repair Plymouth meeting, bluebell, Skippack areas",
+    primaryKeyword: "drywall repair Plymouth Meeting PA",
     keywords: [
-      "drywall repair Plymouth meeting, bluebell, Skippack areas",
-      "sheetrock repair Plymouth meeting, bluebell, Skippack areas",
+      "drywall repair Plymouth Meeting PA",
+      "sheetrock repair Plymouth Meeting PA",
       "wall repair Montgomery County",
       "drywall patch and paint",
     ],
@@ -68,10 +69,10 @@ export const blogPosts = [
     sections: [
       {
         heading: "Drywall repair is more than filling a hole",
-        body: "A good drywall repair needs the patch, sanding, surface blending, primer, and paint prep to work together. If one step is rushed, the repair can still show after the wall is painted. LambertWorks focuses on clean wall repair for homeowners in Plymouth meeting, bluebell, Skippack areas and nearby Montgomery County areas.",
+        body: "A good drywall repair needs the patch, sanding, surface blending, primer, and paint prep to work together. If one step is rushed, the repair can still show after the wall is painted. LambertWorks focuses on clean wall repair for homeowners in Plymouth Meeting, Blue Bell, Skippack, and nearby Montgomery County.",
       },
       {
-        heading: "Common wall problems in Plymouth meeting, bluebell, Skippack areas homes",
+        heading: "Common wall problems in Plymouth Meeting, PA homes",
         body: "Homeowners often call for nail pops, cracks, water-stained areas, old outlet openings, ceiling patches, and damage from plumbing or electrical access. The right repair starts by reviewing the wall condition, the size of the damaged area, and whether the final finish needs paint or texture matching.",
       },
       {
@@ -84,7 +85,7 @@ export const blogPosts = [
       },
       {
         heading: "Local drywall and sheetrock service area",
-        body: "LambertWorks handles drywall and sheetrock repair near 821 Cherry Ln in Plymouth meeting, bluebell, Skippack areas, plus Whitemarsh Township, Lafayette Hill, Conshohocken, Blue Bell, Norristown, and nearby Montgomery County neighborhoods.",
+        body: "LambertWorks handles drywall and sheetrock repair near 821 Cherry Ln in Plymouth Meeting, PA, plus Whitemarsh Township, Lafayette Hill, Conshohocken, Blue Bell, Norristown, and nearby Montgomery County neighborhoods.",
       },
     ],
   },
@@ -93,16 +94,16 @@ export const blogPosts = [
     slug: "basement-remodeling-plymouth-meeting-pa",
     image: basementRemodel,
     category: "Basement Remodeling",
-    title: "Basement Remodeling Near Plymouth meeting, bluebell, Skippack areas Without Wasting Space",
-    seoTitle: "Basement Remodeling Plymouth meeting, bluebell, Skippack areas | LambertWorks",
+    title: "Basement Remodeling Near Plymouth Meeting, PA Without Wasting Space",
+    seoTitle: "Basement Remodeling Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Plan a practical basement remodel near Plymouth meeting, bluebell, Skippack areas with drywall, paint, trim, storage, and finishing work by LambertWorks.",
+      "Plan a practical basement remodel near Plymouth Meeting, PA with drywall, paint, trim, storage, and finishing work by LambertWorks, serving Blue Bell and Skippack.",
     excerpt:
       "Simple ways to turn an unfinished basement into useful space with drywall, paint, trim, storage, and careful planning.",
-    primaryKeyword: "basement remodeling Plymouth meeting, bluebell, Skippack areas",
+    primaryKeyword: "basement remodeling Plymouth Meeting PA",
     keywords: [
-      "basement remodeling Plymouth meeting, bluebell, Skippack areas",
-      "basement finishing Plymouth meeting, bluebell, Skippack areas",
+      "basement remodeling Plymouth Meeting PA",
+      "basement finishing Plymouth Meeting PA",
       "basement drywall",
       "basement paint and trim",
     ],
@@ -110,7 +111,7 @@ export const blogPosts = [
     sections: [
       {
         heading: "Start with how the basement will be used",
-        body: "A basement remodel should begin with the purpose of the space. Storage, play areas, a home office, a media room, or a guest area each need different decisions for walls, lighting, paint, trim, and layout. LambertWorks helps homeowners near Plymouth meeting, bluebell, Skippack areas plan practical improvements before the work starts.",
+        body: "A basement remodel should begin with the purpose of the space. Storage, play areas, a home office, a media room, or a guest area each need different decisions for walls, lighting, paint, trim, and layout. LambertWorks helps homeowners near Plymouth Meeting, Blue Bell, and Skippack plan practical improvements before the work starts.",
       },
       {
         heading: "Focus on usable improvements",
@@ -126,7 +127,7 @@ export const blogPosts = [
       },
       {
         heading: "Local basement remodeling service area",
-        body: "LambertWorks handles basement remodeling and finishing work near Plymouth meeting, bluebell, Skippack areas, Whitemarsh Township, Lafayette Hill, Conshohocken, Blue Bell, Norristown, and nearby Montgomery County neighborhoods.",
+        body: "LambertWorks handles basement remodeling and finishing work near Plymouth Meeting, Blue Bell, Skippack, Whitemarsh Township, Lafayette Hill, Conshohocken, Norristown, and nearby Montgomery County neighborhoods.",
       },
     ],
   },
@@ -136,14 +137,14 @@ export const blogPosts = [
     image: exteriorRepairs,
     category: "Decks, Patios & Exterior",
     title: "Deck, Patio, and Exterior Repairs Around Whitemarsh and Conshohocken",
-    seoTitle: "Deck & Patio Repair Near Plymouth meeting, bluebell, Skippack areas | LambertWorks",
+    seoTitle: "Deck & Patio Repair Near Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "LambertWorks handles deck, patio, concrete, steps, and exterior repair projects near Plymouth meeting, bluebell, Skippack areas, Whitemarsh, and Conshohocken.",
+      "LambertWorks handles deck, patio, concrete, steps, and exterior repair projects near Plymouth Meeting, PA, Whitemarsh Township, and Conshohocken.",
     excerpt:
       "A local exterior-repair guide for safer steps, patio fixes, concrete touch-ups, and outdoor areas that need attention.",
-    primaryKeyword: "patio repair Plymouth meeting, bluebell, Skippack areas",
+    primaryKeyword: "patio repair Plymouth Meeting PA",
     keywords: [
-      "patio repair Plymouth meeting, bluebell, Skippack areas",
+      "patio repair Plymouth Meeting PA",
       "deck repair Whitemarsh",
       "exterior handyman Conshohocken",
       "concrete repair Montgomery County",
@@ -168,7 +169,7 @@ export const blogPosts = [
       },
       {
         heading: "Local exterior repair service area",
-        body: "LambertWorks handles exterior repair estimates near Plymouth meeting, bluebell, Skippack areas, Whitemarsh Township, Conshohocken, Lafayette Hill, Blue Bell, Norristown, and nearby Montgomery County neighborhoods.",
+        body: "LambertWorks handles exterior repair estimates near Plymouth Meeting, Blue Bell, Skippack, Whitemarsh Township, Conshohocken, Lafayette Hill, Norristown, and nearby Montgomery County neighborhoods.",
       },
     ],
   },

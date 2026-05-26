@@ -29,14 +29,14 @@ const Introduction = () => {
     >
       <div className="w-full flex flex-col justify-between max-lg:text-center">
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
-          <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
+          <h1 className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
             Honey-Do List
             <span className="text-nowrap shrink-0 inline-block w-full">
-             Handyman Service
+             Handyman in Plymouth Meeting, PA
             </span>
-          </p>
+          </h1>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            LambertWorks helps homeowners near <span className="bg-highlight">Plymouth meeting, bluebell, Skippack areas</span> finish the repairs, touch-ups, installs, and household fixes that keep sitting on the honey-do list.
+            LambertWorks helps homeowners near <span className="bg-highlight">Plymouth Meeting, Blue Bell, and Skippack, PA</span> finish the repairs, touch-ups, installs, and household fixes that keep sitting on the honey-do list.
           </p>
           <p className="text-center lg:text-start">
             <a
