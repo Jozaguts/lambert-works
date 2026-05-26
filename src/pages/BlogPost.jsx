@@ -85,13 +85,18 @@ const BlogPost = () => {
     document.title = post.seoTitle;
     setMetaTag("description", post.metaDescription);
     setMetaTag("keywords", post.keywords.join(", "));
+    const ogImage = `${siteUrl}${post.image}`;
     setMetaTag("og:title", post.seoTitle, "property");
     setMetaTag("og:description", post.metaDescription, "property");
     setMetaTag("og:type", "article", "property");
     setMetaTag("og:url", canonicalUrl, "property");
+    setMetaTag("og:image", ogImage, "property");
+    setMetaTag("og:image:alt", post.title, "property");
     setMetaTag("twitter:card", "summary_large_image");
     setMetaTag("twitter:title", post.seoTitle);
     setMetaTag("twitter:description", post.metaDescription);
+    setMetaTag("twitter:image", ogImage);
+    setMetaTag("twitter:image:alt", post.title);
     setCanonical(canonicalUrl);
     setJsonLd(post, canonicalUrl);
   }, [post]);
