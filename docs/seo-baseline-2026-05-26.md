@@ -197,3 +197,135 @@ Review around 2026-06-09.
 - Compare GA4 organic users, sessions, engagement, and contact events.
 - Check whether `site:lambertworks.us` returns the homepage and blog pages.
 - Decide whether to start phase 9: city/service pages or more local articles.
+
+Estamos en este punto:
+
+El sitio ya tiene la base técnica correcta para empezar a competir en SEO local. La home tiene title, description, H1, canonical, schema local, Open Graph y copy orientado a Honey-Do List Handyman in Plymouth Meeting, PA.
+Los posts ya están prerenderizados como HTML real, el sitemap y robots están publicados, y Nginx sirve las URLs finales con /.
+
+Search Console hoy está en cero porque Google apenas descubrió la página, pero todavía no la ha rastreado. Eso es normal. El baseline real de tráfico viene de GA4: últimos 28 días, 28 usuarios activos, 32 sesiones, 35 page
+views, 0 tráfico orgánico y 0 eventos clave.
+
+También ya agregamos medición de leads con generate_lead para email, WhatsApp y formulario. Eso es importante porque no solo queremos saber si llega tráfico, sino si ese tráfico produce intención de contacto.
+
+En 15 días queremos ver tres señales:
+
+1. Indexación
+   En Search Console, al menos la home debería pasar de:
+
+   Descubierta: actualmente sin indexar
+   a:
+
+   Indexada
+   o como mínimo:
+
+   Rastreada: actualmente sin indexar
+
+   Rastreada: actualmente sin indexar
+
+2. Primeras impresiones orgánicas
+   No necesariamente muchos clicks todavía, pero sí queremos ver impresiones para búsquedas relacionadas con:
+
+   LambertWorks
+   handyman Plymouth Meeting
+   honey do list handyman
+   drywall repair Plymouth Meeting
+
+3. Primeras señales de contacto
+   En GA4 queremos ver si aparece:
+
+   generate_lead
+
+   aunque sea con pocos eventos. Eso confirma que email, WhatsApp o formulario están generando acciones medibles.
+
+Cómo validar si vamos por buen camino:
+
+En Search Console
+Revisar:
+
+Indexing > Pages
+
+Y confirmar cuántas URLs están indexadas.
+
+Luego inspeccionar:
+
+https://lambertworks.us/
+https://lambertworks.us/blog/handyman-plymouth-meeting-pa/
+https://lambertworks.us/blog/drywall-repair-plymouth-meeting-pa/
+
+Buen camino:
+
+- Google ya las rastreó.
+- No hay bloqueo por robots.
+- Google acepta la canonical.
+- Algunas URLs aparecen indexadas.
+
+Mala señal:
+
+- Sigue Último rastreo: N/D después de 15 días.
+- Sitemap no pudo leerse.
+- Google reporta noindex, error de servidor, redirección rara o canonical diferente.
+
+En Search Console Performance
+Comparar contra baseline:
+
+Clicks: 0
+Impressions: 0
+CTR: N/A
+Position: N/A
+
+Buen camino:
+
+- Impressions pasan de 0 a cualquier número mayor que 0.
+- Aparecen queries locales o de marca.
+- Alguna página empieza a tener posición promedio.
+
+No te preocupes si clicks siguen en 0 al inicio. Para un dominio nuevo, primero queremos impresiones.
+
+En Google Analytics
+Comparar contra baseline:
+
+Usuarios activos: 28
+Sesiones: 32
+Page views: 35
+Organic Search: 0
+generate_lead: 0
+
+Buen camino:
+
+- Organic Search pasa de 0 a 1+.
+- Las páginas de blog reciben visitas.
+- El tiempo de interacción mejora sobre los 2-3 s.
+- Aparece algún generate_lead.
+
+Mala señal:
+
+- Todo el tráfico sigue siendo direct/social.
+- Organic Search sigue en 0.
+- No aparecen eventos generate_lead después de probar clicks reales.
+
+Checklist Práctico Para El Día 15
+
+1. Buscar:
+
+   site:lambertworks.us
+
+2. Revisar Search Console:
+
+   Pages indexed
+   Sitemap read successfully
+   Performance > Queries
+   Performance > Pages
+
+3. Revisar GA4:
+
+   Traffic acquisition > Organic Search
+   Engagement > Landing pages
+   Events > generate_lead
+
+4. Comparar con el archivo:
+
+   docs/seo-baseline-2026-05-26.md
+
+Si en 15 días vemos indexación + impresiones, vamos bien. Si además aparece tráfico orgánico o generate_lead, mejor. Si no hay rastreo todavía, el siguiente paso sería revisar logs de Nginx para confirmar si Googlebot está
+entrando y qué respuesta recibe.
