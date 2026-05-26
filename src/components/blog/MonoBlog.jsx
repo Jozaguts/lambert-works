@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const MonoBlog = ({ data }) => {
   return (
     <div className="overflow-hidden rounded-lg border border-gray-100 hover:shadow-2xl bg-white shadow-gray-300 transition-all duration-300">
-      <Link to={`/blog/${data?.slug}`}>
+      <Link to={`/blog/${data?.slug}/`}>
         <img
           src={data?.image}
           alt={`${data?.primaryKeyword} article`}

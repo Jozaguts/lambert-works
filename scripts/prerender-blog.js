@@ -76,6 +76,10 @@ function setCanonical(html, url) {
   return html.replace(/(<link rel="canonical" href=")[^"]*(")/s, `$1${url}$2`);
 }
 
+function getPostUrl(post) {
+  return `${SITE_URL}/blog/${post.slug}/`;
+}
+
 function buildBlogSchema(post, canonicalUrl) {
   return {
     '@context': 'https://schema.org',
@@ -110,7 +114,7 @@ function replaceJsonLd(html, schema) {
 const baseHtml = readFileSync(join(DIST, 'index.html'), 'utf-8');
 
 for (const post of posts) {
-  const canonicalUrl = `${SITE_URL}/blog/${post.slug}`;
+  const canonicalUrl = getPostUrl(post);
   let html = baseHtml;
 
   html = setTitle(html, post.seoTitle);
@@ -135,7 +139,7 @@ for (const post of posts) {
   const outDir = join(DIST, 'blog', post.slug);
   mkdirSync(outDir, { recursive: true });
   writeFileSync(join(outDir, 'index.html'), html, 'utf-8');
-  console.log(`  ✓  /blog/${post.slug}`);
+  console.log(`  ✓  /blog/${post.slug}/`);
 }
 
 console.log(`\nPrerender complete — ${posts.length} blog pages written to dist/blog/`);

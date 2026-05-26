@@ -6,6 +6,8 @@ import { getBlogPostBySlug } from "../data/blogPosts";
 
 const siteUrl = "https://lambertworks.us";
 
+const getBlogPostUrl = (slug) => `${siteUrl}/blog/${slug}/`;
+
 const setMetaTag = (name, content, attribute = "name") => {
   let tag = document.querySelector(`meta[${attribute}="${name}"]`);
 
@@ -80,7 +82,7 @@ const BlogPost = () => {
       return;
     }
 
-    const canonicalUrl = `${siteUrl}/blog/${post.slug}`;
+    const canonicalUrl = getBlogPostUrl(post.slug);
 
     document.title = post.seoTitle;
     setMetaTag("description", post.metaDescription);
