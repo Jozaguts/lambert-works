@@ -16,6 +16,8 @@ const posts = [
       'Need help with a honey-do list in Plymouth Meeting, PA? LambertWorks handles drywall, paint, trim, repairs, patios, and home projects near Blue Bell and Skippack.',
     keywords:
       'honey do list handyman Plymouth Meeting PA, handyman Plymouth Meeting PA, home repair Plymouth Meeting PA, local handyman Montgomery County, handyman near Blue Bell PA, handyman near Skippack PA',
+    datePublished: '2026-05-09',
+    dateModified: '2026-05-26',
   },
   {
     slug: 'drywall-repair-plymouth-meeting-pa',
@@ -25,6 +27,8 @@ const posts = [
       'LambertWorks provides drywall and sheetrock repair in Plymouth Meeting, PA, including patches, sanding, paint prep, and clean wall finishing near Blue Bell and Skippack.',
     keywords:
       'drywall repair Plymouth Meeting PA, sheetrock repair Plymouth Meeting PA, wall repair Montgomery County, drywall patch and paint',
+    datePublished: '2026-05-09',
+    dateModified: '2026-05-26',
   },
   {
     slug: 'basement-remodeling-plymouth-meeting-pa',
@@ -34,6 +38,8 @@ const posts = [
       'Plan a practical basement remodel near Plymouth Meeting, PA with drywall, paint, trim, storage, and finishing work by LambertWorks, serving Blue Bell and Skippack.',
     keywords:
       'basement remodeling Plymouth Meeting PA, basement finishing Plymouth Meeting PA, basement drywall, basement paint and trim',
+    datePublished: '2026-05-09',
+    dateModified: '2026-05-26',
   },
   {
     slug: 'deck-patio-repair-whitemarsh-conshohocken',
@@ -43,6 +49,8 @@ const posts = [
       'LambertWorks handles deck, patio, concrete, steps, and exterior repair projects near Plymouth Meeting, PA, Whitemarsh Township, and Conshohocken.',
     keywords:
       'patio repair Plymouth Meeting PA, deck repair Whitemarsh, exterior handyman Conshohocken, concrete repair Montgomery County',
+    datePublished: '2026-05-09',
+    dateModified: '2026-05-26',
   },
 ];
 
@@ -77,6 +85,8 @@ function buildBlogSchema(post, canonicalUrl) {
     image: SOCIAL_IMAGE,
     url: canonicalUrl,
     mainEntityOfPage: canonicalUrl,
+    datePublished: post.datePublished,
+    dateModified: post.dateModified,
     keywords: post.keywords,
     author: {
       '@type': 'Organization',
@@ -93,8 +103,8 @@ function buildBlogSchema(post, canonicalUrl) {
 }
 
 function replaceJsonLd(html, schema) {
-  const schemaBlock = `<script type="application/ld+json">\n    ${JSON.stringify(schema, null, 2).split('\n').join('\n    ')}\n    </script>`;
-  return html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/s, schemaBlock);
+  const schemaBlock = `<!-- BlogPosting Schema -->\n    <script type="application/ld+json">\n    ${JSON.stringify(schema, null, 2).split('\n').join('\n    ')}\n    </script>`;
+  return html.replace(/<!--[^\n]*Schema[^\n]*-->\n\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/s, schemaBlock);
 }
 
 const baseHtml = readFileSync(join(DIST, 'index.html'), 'utf-8');

@@ -31,7 +31,7 @@ const Introduction = () => {
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
           <h1 className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
             Honey-Do List
-            <span className="text-nowrap shrink-0 inline-block w-full">
+            <span className=" shrink-0 inline-block  w-full">
              Handyman in Plymouth Meeting, PA
             </span>
           </h1>
@@ -62,10 +62,10 @@ const Introduction = () => {
         </div>
       </div>
       <div
-        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-[2/3] relative`}
+        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-2/3 relative`}
       >
         <img
-          className={`shadow-2xl shadow-gray-200 w-full h-full  absolute bottom-0 object-cover bg-white rounded-3xl`}
+          className={`shadow-2xl shadow-gray-200 w-full h-full  absolute bottom-0 object-[2/3] bg-white rounded-3xl`}
           src={person}
           alt="person"
         />
