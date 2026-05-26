@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { getBlogPostBySlug } from "../data/blogPosts";
+import { trackLead } from "../utils/analytics";
 
 const siteUrl = "https://lambertworks.us";
 
@@ -182,6 +183,11 @@ const BlogPost = () => {
                     href="https://wa.me/14845380809"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() =>
+                      trackLead("whatsapp_blog_cta", {
+                        article_slug: post.slug,
+                      })
+                    }
                   >
                     WhatsApp LambertWorks
                   </a>

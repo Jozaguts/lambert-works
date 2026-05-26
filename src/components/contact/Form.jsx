@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { trackLead } from "../../utils/analytics";
 
 const telegramSVG = (
   <svg
@@ -19,6 +20,35 @@ const commonClass =
 
 const Form = () => {
   const [projectType, setProjectType] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const name = formData.get("name") || "";
+    const email = formData.get("email") || "";
+    const location = formData.get("location") || "";
+    const timing = formData.get("timing") || "";
+    const details = formData.get("details") || "";
+
+    trackLead("contact_form", {
+      project_type: projectType || "not_provided",
+    });
+
+    const body = [
+      `Name: ${name}`,
+      `Email: ${email}`,
+      `Location: ${location}`,
+      `Preferred timing: ${timing}`,
+      `Project type: ${projectType}`,
+      "",
+      "Project details:",
+      details,
+    ].join("\n");
+
+    window.location.href = `mailto:hello@lambertworks.us?subject=${encodeURIComponent(
+      "LambertWorks project estimate request"
+    )}&body=${encodeURIComponent(body)}`;
+  };
 
   useEffect(() => {
     const handleProjectTypeSelected = (event) => {
@@ -44,20 +74,23 @@ const Form = () => {
         Share your honey-do list, repair list, room, or exterior area you need help with. Include photos by email if that makes the scope easier to understand.
       </p>
       <div className="mx-2">
-        <form className="flex flex-col gap-4 mt-4">
+        <form className="flex flex-col gap-4 mt-4" onSubmit={handleSubmit}>
           <input
+            name="name"
             type="text"
             placeholder="Name*"
             className={`${commonClass}`}
             required
           />
           <input
+            name="email"
             type="email"
             placeholder="Email*"
             className={`${commonClass}`}
             required
           />
           <input
+            name="location"
             type="text"
             placeholder="Location*"
             className={`${commonClass}`}
@@ -66,12 +99,14 @@ const Form = () => {
 
           <div className="flex max-xs:flex-col max-xs:gap-4">
             <input
+              name="timing"
               type="text"
               placeholder="Preferred Timing*"
               className={`${commonClass} xs:w-[50%] me-5`}
               required
             />
             <input
+              name="project_type"
               type="text"
               placeholder="Project Type*"
               value={projectType}
@@ -82,6 +117,7 @@ const Form = () => {
           </div>
 
           <input
+            name="details"
             type="text"
             placeholder="Project Details*"
             className={`${commonClass}`}

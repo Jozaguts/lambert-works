@@ -1,4 +1,5 @@
 import logo from "../../../assets/logo.png";
+import { trackLead } from "../../../utils/analytics";
 
 /* Footer nabLinks */
 const navItems = [
@@ -45,6 +46,7 @@ const Footer = () => {
         <a
           href="mailto:hello@lambertworks.us"
           className="underline font-bold"
+          onClick={() => trackLead("email_footer")}
         >
           hello@lambertworks.us
         </a>
