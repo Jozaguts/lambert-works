@@ -28,6 +28,21 @@ export const blogPosts = [
       "drywall and trim repair Plymouth Meeting",
     ],
     tags: ["Honey-Do List", "Handyman", "Home Repair", "Plymouth Meeting", "Blue Bell", "Skippack"],
+    relatedSlugs: [
+      "drywall-repair-plymouth-meeting-pa",
+      "basement-remodeling-plymouth-meeting-pa",
+      "deck-patio-repair-whitemarsh-conshohocken",
+    ],
+    faqs: [
+      {
+        question: "Can several small jobs be grouped into one visit?",
+        answer: "Yes. That is often the best use of a handyman visit. If the list includes related work such as drywall repair, paint touch-ups, trim, door adjustments, shelving, caulking, or exterior fixes, grouping the work can make the estimate clearer and reduce repeated scheduling.",
+      },
+      {
+        question: "What should you send before requesting an estimate?",
+        answer: "Send the address or town, a short repair list, preferred timing, and photos of the areas if available. If you are not sure whether the job is drywall, carpentry, painting, or exterior repair, describe the problem in plain language. LambertWorks can help sort the scope from there.",
+      },
+    ],
     sections: [
       {
         heading: "A practical handyman for the list that keeps growing",
@@ -52,14 +67,6 @@ export const blogPosts = [
       {
         heading: "A local repair list for Plymouth Meeting and nearby towns",
         body: "LambertWorks serves homeowners in Plymouth Meeting, Blue Bell, Skippack, Whitemarsh Township, Lafayette Hill, Conshohocken, Norristown, and nearby Montgomery County neighborhoods. Plymouth Meeting is the anchor, but many repair lists come from nearby homes where drywall, paint, trim, patios, and everyday fixes overlap.",
-      },
-      {
-        heading: "Can several small jobs be grouped into one visit?",
-        body: "Yes. That is often the best use of a handyman visit. If the list includes related work such as drywall repair, paint touch-ups, trim, door adjustments, shelving, caulking, or exterior fixes, grouping the work can make the estimate clearer and reduce repeated scheduling.",
-      },
-      {
-        heading: "What should you send before requesting an estimate?",
-        body: "Send the address or town, a short repair list, preferred timing, and photos of the areas if available. If you are not sure whether the job is drywall, carpentry, painting, or exterior repair, describe the problem in plain language. LambertWorks can help sort the scope from there.",
       },
     ],
   },
@@ -88,6 +95,24 @@ export const blogPosts = [
       "ceiling drywall patch",
     ],
     tags: ["Drywall", "Sheetrock", "Painting Prep", "Wall Repair"],
+    relatedSlugs: [
+      "handyman-plymouth-meeting-pa",
+      "basement-remodeling-plymouth-meeting-pa",
+    ],
+    faqs: [
+      {
+        question: "Can a small drywall hole be repaired without replacing the whole wall?",
+        answer: "Often, yes. Small holes, dents, nail pops, and isolated damaged areas can usually be patched and sanded without replacing a full wall. Larger, soft, wet, or repeatedly cracked areas may need closer review before the right repair approach is clear.",
+      },
+      {
+        question: "Will the patch still show after painting?",
+        answer: "The finished result depends on patching, sanding, surface blending, primer, lighting, and paint match. A rushed patch can still show when light hits the wall. LambertWorks focuses on clean, paint-ready repair rather than making unrealistic invisible-patch guarantees.",
+      },
+      {
+        question: "Can drywall repair be grouped with other small repairs?",
+        answer: "Yes. Many homeowners have drywall patches alongside baseboard gaps, caulking, paint touch-ups, door adjustments, shelving, or basement finishing details. Grouping the work can make the estimate more useful and reduce repeat scheduling.",
+      },
+    ],
     sections: [
       {
         heading: "Drywall repair is more than filling a hole",
@@ -117,18 +142,6 @@ export const blogPosts = [
         heading: "Local drywall and sheetrock service area",
         body: "LambertWorks handles drywall and sheetrock repair for homeowners near Plymouth Meeting, Blue Bell, Skippack, Whitemarsh Township, Lafayette Hill, Conshohocken, Norristown, and nearby Montgomery County neighborhoods.",
       },
-      {
-        heading: "Can a small drywall hole be repaired without replacing the whole wall?",
-        body: "Often, yes. Small holes, dents, nail pops, and isolated damaged areas can usually be patched and sanded without replacing a full wall. Larger, soft, wet, or repeatedly cracked areas may need closer review before the right repair approach is clear.",
-      },
-      {
-        heading: "Will the patch still show after painting?",
-        body: "The finished result depends on patching, sanding, surface blending, primer, lighting, and paint match. A rushed patch can still show when light hits the wall. LambertWorks focuses on clean, paint-ready repair rather than making unrealistic invisible-patch guarantees.",
-      },
-      {
-        heading: "Can drywall repair be grouped with other small repairs?",
-        body: "Yes. Many homeowners have drywall patches alongside baseboard gaps, caulking, paint touch-ups, door adjustments, shelving, or basement finishing details. Grouping the work can make the estimate more useful and reduce repeat scheduling.",
-      },
     ],
   },
   {
@@ -157,6 +170,24 @@ export const blogPosts = [
       "basement trim and paint",
     ],
     tags: ["Basement Remodeling", "Basement Finishing", "Drywall", "Trim"],
+    relatedSlugs: [
+      "handyman-plymouth-meeting-pa",
+      "drywall-repair-plymouth-meeting-pa",
+    ],
+    faqs: [
+      {
+        question: "Can an unfinished basement be improved without a full remodel?",
+        answer: "Often, yes. A basement may become more useful with repaired drywall, painted surfaces, cleaner trim, better storage, and finished transitions. A full remodel is not always the first step, especially when the homeowner mainly wants a cleaner, more usable space.",
+      },
+      {
+        question: "Do moisture or water stains matter before basement finishing?",
+        answer: "Yes. Old staining, damp areas, musty smells, soft drywall, or active water should be understood before cosmetic finishing begins. If the source is not resolved, new drywall, paint, or trim can be damaged again.",
+      },
+      {
+        question: "Can basement drywall, paint, and trim be grouped together?",
+        answer: "Yes. Basement projects often work best as a grouped scope because drywall repair, sanding, paint prep, baseboards, caulking, and storage details affect the final look of the same space. Grouping them can make the estimate clearer.",
+      },
+    ],
     sections: [
       {
         heading: "Start with how the basement will be used",
@@ -185,18 +216,6 @@ export const blogPosts = [
       {
         heading: "Local basement remodeling service area",
         body: "LambertWorks handles basement remodeling and finishing work near Plymouth Meeting, Blue Bell, Skippack, Whitemarsh Township, Lafayette Hill, Conshohocken, Norristown, and nearby Montgomery County neighborhoods.",
-      },
-      {
-        heading: "Can an unfinished basement be improved without a full remodel?",
-        body: "Often, yes. A basement may become more useful with repaired drywall, painted surfaces, cleaner trim, better storage, and finished transitions. A full remodel is not always the first step, especially when the homeowner mainly wants a cleaner, more usable space.",
-      },
-      {
-        heading: "Do moisture or water stains matter before basement finishing?",
-        body: "Yes. Old staining, damp areas, musty smells, soft drywall, or active water should be understood before cosmetic finishing begins. If the source is not resolved, new drywall, paint, or trim can be damaged again.",
-      },
-      {
-        heading: "Can basement drywall, paint, and trim be grouped together?",
-        body: "Yes. Basement projects often work best as a grouped scope because drywall repair, sanding, paint prep, baseboards, caulking, and storage details affect the final look of the same space. Grouping them can make the estimate clearer.",
       },
     ],
   },
@@ -227,6 +246,24 @@ export const blogPosts = [
       "exterior home repair Montgomery County PA",
     ],
     tags: ["Exterior Repair", "Patios", "Decks", "Concrete"],
+    relatedSlugs: [
+      "handyman-plymouth-meeting-pa",
+      "drywall-repair-plymouth-meeting-pa",
+    ],
+    faqs: [
+      {
+        question: "Can a handyman repair deck boards?",
+        answer: "Often, yes, if the issue is localized and the framing is sound. If there are signs of structural movement, rot in major supports, ledger problems, or widespread failure, the project may need a deck contractor or structural review first.",
+      },
+      {
+        question: "Can patio cracks be repaired without replacing the whole patio?",
+        answer: "Small cracks, chips, edges, and surface wear may be practical repair or touch-up items. Major settling, drainage problems, or large slab failure usually belongs with a concrete specialist.",
+      },
+      {
+        question: "What exterior repairs should be handled before heavy-use seasons?",
+        answer: "Steps, railings, deck walking surfaces, patio trip points, thresholds, loose trim, and areas where water collects are good candidates to review before spring and summer use.",
+      },
+    ],
     sections: [
       {
         heading: "Exterior repairs protect daily use, not just curb appeal",
@@ -259,18 +296,6 @@ export const blogPosts = [
       {
         heading: "Local exterior repair service area",
         body: "LambertWorks handles exterior repair estimates near Plymouth Meeting, Whitemarsh Township, Lafayette Hill, Conshohocken, West Conshohocken, Blue Bell, Skippack, Norristown, and nearby Montgomery County neighborhoods.",
-      },
-      {
-        heading: "Can a handyman repair deck boards?",
-        body: "Often, yes, if the issue is localized and the framing is sound. If there are signs of structural movement, rot in major supports, ledger problems, or widespread failure, the project may need a deck contractor or structural review first.",
-      },
-      {
-        heading: "Can patio cracks be repaired without replacing the whole patio?",
-        body: "Small cracks, chips, edges, and surface wear may be practical repair or touch-up items. Major settling, drainage problems, or large slab failure usually belongs with a concrete specialist.",
-      },
-      {
-        heading: "What exterior repairs should be handled before heavy-use seasons?",
-        body: "Steps, railings, deck walking surfaces, patio trip points, thresholds, loose trim, and areas where water collects are good candidates to review before spring and summer use.",
       },
     ],
   },

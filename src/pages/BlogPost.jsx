@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { getBlogPostBySlug } from "../data/blogPosts";
+import { blogPosts, getBlogPostBySlug } from "../data/blogPosts";
 import { trackLead } from "../utils/analytics";
 
 const siteUrl = "https://lambertworks.us";
@@ -43,7 +43,7 @@ const setJsonLd = (post, canonicalUrl) => {
   const script = document.createElement("script");
   script.id = "blog-post-schema";
   script.type = "application/ld+json";
-  script.textContent = JSON.stringify({
+  const blogSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
@@ -69,6 +69,30 @@ const setJsonLd = (post, canonicalUrl) => {
       "Montgomery County, PA",
     ],
     keywords: post.keywords.join(", "),
+  };
+
+  if (!post.faqs?.length) {
+    script.textContent = JSON.stringify(blogSchema);
+    document.head.appendChild(script);
+    return;
+  }
+
+  script.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      blogSchema,
+      {
+        "@type": "FAQPage",
+        mainEntity: post.faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      },
+    ],
   });
   document.head.appendChild(script);
 };
@@ -76,6 +100,9 @@ const setJsonLd = (post, canonicalUrl) => {
 const BlogPost = () => {
   const { slug } = useParams();
   const post = getBlogPostBySlug(slug);
+  const relatedPosts = post?.relatedSlugs
+    ?.map((relatedSlug) => blogPosts.find((item) => item.slug === relatedSlug))
+    .filter(Boolean) ?? [];
 
   useEffect(() => {
     if (!post) {
@@ -163,6 +190,56 @@ const BlogPost = () => {
                   </p>
                 </section>
               ))}
+
+              {post.faqs?.length ? (
+                <section className="rounded-md border border-warm-border bg-soft-white p-5">
+                  <h2 className="text-2xl font-semibold text-charcoal">
+                    Common questions
+                  </h2>
+                  <div className="mt-4 space-y-3">
+                    {post.faqs.map((faq) => (
+                      <details
+                        className="rounded-md border border-warm-border bg-white p-4"
+                        key={faq.question}
+                      >
+                        <summary className="cursor-pointer text-[16px] font-semibold text-charcoal">
+                          {faq.question}
+                        </summary>
+                        <p className="mt-3 text-[15px] leading-7 text-gray-700">
+                          {faq.answer}
+                        </p>
+                      </details>
+                    ))}
+                  </div>
+                </section>
+              ) : null}
+
+              {relatedPosts.length ? (
+                <section>
+                  <h2 className="text-2xl font-semibold text-charcoal">
+                    Related repair guides
+                  </h2>
+                  <div className="mt-4 grid gap-4 md:grid-cols-2">
+                    {relatedPosts.map((relatedPost) => (
+                      <Link
+                        className="rounded-md border border-warm-border bg-soft-white p-4 hover:border-primary"
+                        key={relatedPost.slug}
+                        to={`/blog/${relatedPost.slug}/`}
+                      >
+                        <p className="text-[12px] font-semibold uppercase tracking-[0.08em] text-primary-dark">
+                          {relatedPost.category}
+                        </p>
+                        <p className="mt-2 text-[17px] font-semibold text-charcoal">
+                          {relatedPost.title}
+                        </p>
+                        <p className="mt-2 text-[14px] leading-6 text-gray-600">
+                          {relatedPost.excerpt}
+                        </p>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              ) : null}
 
               <section className="rounded-md border border-warm-border bg-warm-surface p-5">
                 <h2 className="text-2xl font-semibold text-charcoal">

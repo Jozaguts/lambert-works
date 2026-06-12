@@ -13,44 +13,44 @@ const posts = [
     seoTitle: 'Honey-Do List Handyman Plymouth Meeting, PA | LambertWorks',
     title: 'Honey-Do List Handyman in Plymouth Meeting, PA',
     metaDescription:
-      'Need help with a honey-do list in Plymouth Meeting, PA? LambertWorks handles drywall, paint, trim, repairs, patios, and home projects near Blue Bell and Skippack.',
+      'Need a handyman in Plymouth Meeting, PA? LambertWorks helps with honey-do lists, drywall, trim, paint touch-ups, installs, patios, and home repairs.',
     keywords:
-      'honey do list handyman Plymouth Meeting PA, handyman Plymouth Meeting PA, home repair Plymouth Meeting PA, local handyman Montgomery County, handyman near Blue Bell PA, handyman near Skippack PA',
+      'honey do list handyman Plymouth Meeting PA, handyman Plymouth Meeting PA, home repair Plymouth Meeting PA, local handyman Montgomery County, handyman near Blue Bell PA, handyman near Skippack PA, small home repairs Plymouth Meeting, home repair list Montgomery County, drywall and trim repair Plymouth Meeting',
     datePublished: '2026-05-09',
-    dateModified: '2026-05-26',
+    dateModified: '2026-06-12',
   },
   {
     slug: 'drywall-repair-plymouth-meeting-pa',
-    seoTitle: 'Drywall Repair Plymouth Meeting, PA | LambertWorks',
-    title: 'Drywall Repair in Plymouth Meeting, PA: Patch, Sand, Paint, and Finish',
+    seoTitle: 'Drywall Repair Plymouth Meeting, PA | Patch & Paint Prep',
+    title: 'Drywall Repair in Plymouth Meeting, PA: Patch, Sand, and Paint Prep',
     metaDescription:
-      'LambertWorks provides drywall and sheetrock repair in Plymouth Meeting, PA, including patches, sanding, paint prep, and clean wall finishing near Blue Bell and Skippack.',
+      'Need drywall repair in Plymouth Meeting, PA? LambertWorks handles wall patches, sanding, paint prep, and sheetrock repairs near Blue Bell and Skippack.',
     keywords:
-      'drywall repair Plymouth Meeting PA, sheetrock repair Plymouth Meeting PA, wall repair Montgomery County, drywall patch and paint',
+      'drywall repair Plymouth Meeting PA, sheetrock repair Plymouth Meeting PA, wall repair Plymouth Meeting PA, drywall patch and paint Plymouth Meeting, drywall patch repair Montgomery County, drywall repair near Blue Bell PA, drywall repair near Skippack PA, drywall sanding and paint prep, nail pop repair, ceiling drywall patch',
     datePublished: '2026-05-09',
-    dateModified: '2026-05-26',
+    dateModified: '2026-06-12',
   },
   {
     slug: 'basement-remodeling-plymouth-meeting-pa',
-    seoTitle: 'Basement Remodeling Plymouth Meeting, PA | LambertWorks',
+    seoTitle: 'Basement Remodeling Plymouth Meeting, PA | Practical Finishing',
     title: 'Basement Remodeling Near Plymouth Meeting, PA Without Wasting Space',
     metaDescription:
-      'Plan a practical basement remodel near Plymouth Meeting, PA with drywall, paint, trim, storage, and finishing work by LambertWorks, serving Blue Bell and Skippack.',
+      'Plan basement remodeling near Plymouth Meeting, PA with drywall, paint, trim, storage, and practical finishing work by LambertWorks.',
     keywords:
-      'basement remodeling Plymouth Meeting PA, basement finishing Plymouth Meeting PA, basement drywall, basement paint and trim',
+      'basement remodeling Plymouth Meeting PA, basement finishing Plymouth Meeting PA, basement drywall Plymouth Meeting, basement paint and trim, basement repair Montgomery County, basement finishing near Blue Bell PA, basement remodeling near Skippack PA, usable basement space, basement storage improvements, basement drywall repair, basement trim and paint',
     datePublished: '2026-05-09',
-    dateModified: '2026-05-26',
+    dateModified: '2026-06-12',
   },
   {
     slug: 'deck-patio-repair-whitemarsh-conshohocken',
-    seoTitle: 'Deck & Patio Repair Near Plymouth Meeting, PA | LambertWorks',
+    seoTitle: 'Deck & Patio Repair Near Plymouth Meeting, PA | Exterior Handyman',
     title: 'Deck, Patio, and Exterior Repairs Around Whitemarsh and Conshohocken',
     metaDescription:
-      'LambertWorks handles deck, patio, concrete, steps, and exterior repair projects near Plymouth Meeting, PA, Whitemarsh Township, and Conshohocken.',
+      'Plan deck, patio, step, railing, concrete touch-up, and exterior trim repairs near Plymouth Meeting, Whitemarsh, and Conshohocken.',
     keywords:
-      'patio repair Plymouth Meeting PA, deck repair Whitemarsh, exterior handyman Conshohocken, concrete repair Montgomery County',
+      'patio repair Plymouth Meeting PA, deck repair Whitemarsh, exterior handyman Conshohocken, concrete repair Montgomery County, deck repair near Plymouth Meeting PA, patio repair near Whitemarsh Township, exterior trim repair Plymouth Meeting, exterior step repair Conshohocken, railing repair Montgomery County, deck board repair Whitemarsh Township, outdoor handyman near Plymouth Meeting, exterior home repair Montgomery County PA',
     datePublished: '2026-05-09',
-    dateModified: '2026-05-26',
+    dateModified: '2026-06-12',
   },
 ];
 
