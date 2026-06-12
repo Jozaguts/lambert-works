@@ -36,14 +36,14 @@ const Introduction = () => {
             </span>
           </h1>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            LambertWorks helps homeowners near <span className="bg-highlight">Plymouth Meeting, Blue Bell, and Skippack, PA</span> finish the repairs, touch-ups, installs, and household fixes that keep sitting on the honey-do list.
+            Send the repair list you keep putting off. LambertWorks helps homeowners near <span className="bg-highlight">Plymouth Meeting, Blue Bell, and Skippack, PA</span> get clear estimates and clean, finished work for drywall, paint, trim, patios, installs, and practical home fixes.
           </p>
           <p className="text-center lg:text-start">
             <a
               className="btn-primary btn btn-xs xxs:btn-lg text-white"
               href="#contact"
             >
-              Start Your Honey-Do List
+              Start My Repair List
             </a>
             <a
                 className="btn-secondary ml-2 btn btn-xs xxs:btn-lg text-white"

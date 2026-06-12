@@ -27,19 +27,19 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[42px] text-[min(24px,42px)] max-md:text-center font-semibold mb-6 leading-tight`}
           >
-            The list you’ll finally get to check off.
+            The list you'll finally get to check off.
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              You know the list. It starts with “fix that squeaky drawer” and somehow turns into patch the wall, hang the shelf, repair the trim, touch up the paint, fix the pantry door, and figure out what that noise is.
+              Small repairs pile up because they are too small for a contractor, too time-consuming for the weekend, and too visible to keep ignoring. One loose door becomes damaged trim. One drywall patch waits until the next paint job.
             </p>
             <p className="mt-3">
               That is the work LambertWorks does most: practical household repairs, touch-ups, installs, and small fixes bundled into one clear walkthrough with a local handyman near Plymouth Meeting, Blue Bell, and Skippack, PA.
             </p>
             <p className="mt-3 font-medium text-charcoal">
-              Send the list. We’ll help you sort it, price it, and start checking things off.
+              Send the list. We'll help you sort it, price it, and start checking things off.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">

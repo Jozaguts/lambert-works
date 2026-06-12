@@ -9,6 +9,7 @@ import Profession from "../components/profession/Profession";
 import HappyClients from "../components/happyClients/HappyClients";
 import Testimonial from "../components/testimonial/Testimonial";
 import Contact from "../components/contact/Contact";
+import Faq from "../components/faq/Faq";
 import "../../index.css";
 
 const Home = () => {
@@ -49,6 +50,7 @@ const Home = () => {
       </div>
       <HappyClients />
       <Testimonial />
+      <Faq />
       <Contact />
     </div>
   );

@@ -35,7 +35,7 @@ const Testimonial = () => {
   return (
     <div className="flex mx-auto justify-center px-2 max-w-218 pb-10 md:pb-25">
       <div className="w-full h-full cursor-grab">
-        <p className="section-title mb-6 text-center">What Clients Notice</p>
+        <p className="section-title mb-6 text-center">Project Results Homeowners Want</p>
         <Swiper
           id="testimonialSwiper"
           spaceBetween={30}
