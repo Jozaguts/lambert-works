@@ -32,7 +32,6 @@ const Home = () => {
       <div className="introduction-profile-background">
         <div className="content">
           <Introduction />
-          <Profile />
         </div>
       </div>
       <div className="bg-soft-white pt-30">
@@ -52,6 +51,7 @@ const Home = () => {
       <Testimonial />
       <Faq />
       <Contact />
+        <Profile />
     </div>
   );
 };

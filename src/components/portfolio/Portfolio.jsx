@@ -20,7 +20,7 @@ const projectData = [
     id: 2,
     image: interiorPainting,
     category: "INTERIOR PAINTING",
-    title: "Interior Painting Project",
+    title: "Basement finishing project",
     description:
         "Room-by-room painting with careful prep, clean edges, protected surfaces, and durable finishes.",
     link: "#!",
@@ -29,7 +29,7 @@ const projectData = [
     id: 3,
     image: concreteWork,
     category: "CONCRETE WORK",
-    title: "Concrete Patio Installation",
+    title: "Wall framing Installation",
     description:
         "Concrete patios, walkways, and exterior surfaces built for daily use, drainage, and curb appeal.",
     link: "#!",
@@ -47,7 +47,7 @@ const projectData = [
     id: 5,
     image: basementRemodel,
     category: "BASEMENT REMODELING",
-    title: "Finished Basement Remodel",
+    title: "Accent wall",
     description:
         "Basement upgrades that add usable family space, storage, lighting, and a more finished feel.",
     link: "#!",
