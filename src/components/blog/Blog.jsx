@@ -23,12 +23,16 @@ const custom_breakpoints = {
 };
 
 const Blog = () => {
+  const orderedPosts = [...blogPosts].sort(
+    (a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured))
+  );
+
   return (
     <div className="content py-25 px-2 relative" id="blog">
       <div className="max-w-135 text-center mx-auto pb-17.5">
         <p className="section-title pb-6">Home Repair Notes</p>
         <p className="text-xs xs:text-[16px] md:text-lg text-gray-400">
-          Local repair notes for Plymouth Meeting, Blue Bell, and Skippack homeowners comparing drywall, basements, patios, painting, carpentry, and practical handyman work.
+          Local repair notes for Plymouth Meeting, Blue Bell, and Skippack homeowners comparing painting, wood staining, drywall, basements, patios, carpentry, and practical handyman work.
         </p>
       </div>
       <Swiper
@@ -37,7 +41,7 @@ const Blog = () => {
         pagination={{ clickable: true }}
         modules={[Pagination]}
       >
-        {blogPosts?.map((data, index) => (
+        {orderedPosts?.map((data, index) => (
           <SwiperSlide
             key={index}
             className="mb-10" /* pagination margin bottom to 40px */

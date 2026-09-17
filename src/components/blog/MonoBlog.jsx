@@ -10,6 +10,11 @@ const MonoBlog = ({ data }) => {
           className="w-full h-56.5 object-cover "
         />
         <div className="m-6">
+          {data?.featured ? (
+            <p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-primary-dark">
+              Featured painting work
+            </p>
+          ) : null}
           <p className="text-[10px] xs:text-[14px] font-normal text-gray-400 ">
             {data?.category}
           </p>

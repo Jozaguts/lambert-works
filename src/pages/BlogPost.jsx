@@ -178,6 +178,23 @@ const BlogPost = () => {
             />
           </div>
 
+          {post.gallery?.length ? (
+            <div className="mx-auto mt-4 grid max-w-170 gap-4 sm:grid-cols-2">
+              {post.gallery.map((image) => (
+                <figure
+                  className="overflow-hidden rounded-lg bg-white shadow-sm"
+                  key={image.src}
+                >
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="h-56 w-full object-cover"
+                  />
+                </figure>
+              ))}
+            </div>
+          ) : null}
+
           <div className="mx-auto mt-12 max-w-180">
             <div className="space-y-9 rounded-lg bg-white p-5 shadow-sm sm:p-8">
               {post.sections.map((section) => (
