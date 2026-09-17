@@ -1,0 +1,212 @@
+# ----------------------------------------
+# Resumen de Generar oportunidades de venta
+# Cuenta: jozaguts
+# Propiedad: lambert-works
+# ----------------------------------------
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Día N,Usuarios nuevos
+0000,0
+0001,0
+0002,0
+0003,3
+0004,0
+0005,0
+0006,1
+0007,1
+0008,1
+0009,6
+0010,2
+0011,1
+0012,1
+0013,1
+0014,1
+0015,1
+0016,0
+0017,2
+0018,0
+0019,0
+0020,0
+0021,1
+0022,2
+0023,1
+0024,0
+0025,0
+0026,7
+0027,0
+
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Día N,Usuarios recurrentes
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,1
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Día N,Clientes potenciales cualificados
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Día N,Clientes potenciales convertidos
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Plataforma,Eventos clave
+
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Primer grupo de canales principal del usuario (Grupo de canales predeterminado),Usuarios nuevos
+Direct,24
+Organic Search,7
+Organic Social,1
+
+# ¿Cómo retiene a los usuarios?
+# Fecha de inicio: 20260802
+# Fecha de finalización: 20260912
+Fecha,Semana 0,Semana 1,Semana 2,Semana 3,Semana 4,Semana 5
+2 ago - 8 ago,2
+9 ago - 15 ago,6
+16 ago - 22 ago,5
+23 ago - 29 ago,11
+30 ago - 5 sept,7
+6 sept - 12 sept,4
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Nombre de la audiencia,Usuarios activos
+All Users,31
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Ciudad,Usuarios activos
+Czestochowa,3
+Glenview,3
+Ashburn,2
+Patzcuaro,2
+Warsaw,2
+Boardman,1
+Chester,1
+Fort Worth,1
+Franklin Park,1
+Kansas City,1
+Lagos,1
+Mifflinburg,1
+Newark,1
+Paoli,1
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Página de destino y cadena de consulta,Impresiones de la Búsqueda de Google orgánica
+/blog/deck-patio-repair-whitemarsh-conshohocken/,348
+/blog/basement-remodeling-plymouth-meeting-pa/,149
+/,145
+/blog/drywall-repair-plymouth-meeting-pa/,58
+/blog/handyman-plymouth-meeting-pa/,38
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Consulta de la Búsqueda de Google orgánica,Clics de la Búsqueda de Google orgánica
+deck repair near me,1
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Fuente manual de la sesión,Sesiones
+google,7
+bing,1
+facebook.com,1
+
+#  
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Día N

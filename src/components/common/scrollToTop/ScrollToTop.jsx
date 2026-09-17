@@ -3,7 +3,7 @@ import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { animateScroll } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { trackLead } from "../../../utils/analytics";
+import { trackEvent } from "../../../utils/analytics";
 
 const scrollToTop = () => {
   animateScroll.scrollToTop(options); /* To Top */
@@ -34,8 +34,13 @@ const ScrollToTop = () => {
         href="https://www.instagram.com/lambertworks"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Contact LambertWorks on WhatsApp"
-        onClick={() => trackLead("whatsapp_floating_button")}
+        aria-label="Visit LambertWorks on Instagram"
+        onClick={() =>
+          trackEvent("social_click", {
+            platform: "instagram",
+            placement: "floating_button",
+          })
+        }
         className="w-10 h-10 sm:w-12.5 sm:h-12.5 lg:w-15 lg:h-15 flex justify-center items-center rounded-full transition delay-150 duration-500 ease-in-out hover:scale-120 hover:cursor-pointer bg-primary hover:bg-primary-dark text-white shadow-lg"
       >
         <FontAwesomeIcon icon={faInstagram} size="2xl" />

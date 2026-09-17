@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { blogPosts, getBlogPostBySlug } from "../data/blogPosts";
-import { trackLead } from "../utils/analytics";
+import { trackContactClick } from "../utils/analytics";
 
 const siteUrl = "https://lambertworks.us";
 
@@ -261,7 +261,8 @@ const BlogPost = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() =>
-                      trackLead("whatsapp_blog_cta", {
+                      trackContactClick("whatsapp", {
+                        placement: "blog_cta",
                         article_slug: post.slug,
                       })
                     }

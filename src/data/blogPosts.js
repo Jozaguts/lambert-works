@@ -75,12 +75,12 @@ export const blogPosts = [
     slug: "drywall-repair-plymouth-meeting-pa",
     image: drywallRepair,
     category: "Drywall Repair",
-    title: "Drywall Repair in Plymouth Meeting, PA: Patch, Sand, and Paint Prep",
-    seoTitle: "Drywall Repair Plymouth Meeting, PA | Patch & Paint Prep",
+    title: "Drywall Repair Near Plymouth Meeting, PA: Patch and Paint Prep",
+    seoTitle: "Drywall Repair Near Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Need drywall repair in Plymouth Meeting, PA? LambertWorks handles wall patches, sanding, paint prep, and sheetrock repairs near Blue Bell and Skippack.",
+      "Need drywall repair near Plymouth Meeting, Conshohocken, or Lafayette Hill, PA? LambertWorks handles patches, sanding, primer, and paint prep.",
     excerpt:
-      "Wall damage is rarely just a hole. Learn how drywall patches, sanding, primer, paint prep, and nearby repairs fit into a clean estimate.",
+      "Wall damage is rarely just a hole. Learn how drywall patches, sanding, primer, paint prep, and nearby trim repairs fit into a clean estimate.",
     primaryKeyword: "drywall repair Plymouth Meeting PA",
     keywords: [
       "drywall repair Plymouth Meeting PA",
@@ -119,7 +119,7 @@ export const blogPosts = [
         body: "A drywall patch can look simple until the light hits it. Good drywall repair in Plymouth Meeting, PA depends on patching, sanding, surface blending, primer, and paint prep working together so the wall looks ready to finish again.",
       },
       {
-        heading: "Common wall problems in Plymouth Meeting, PA homes",
+        heading: "Common wall problems in Plymouth Meeting and nearby homes",
         body: "Homeowners often request help with nail pops, dents, doorknob holes, cracks at seams or corners, old anchor holes, outlet openings, ceiling patches, and basement wall damage. The right repair starts by reviewing the wall condition, the size of the damaged area, and whether the final finish needs primer, paint, or nearby trim touch-ups.",
       },
       {
@@ -139,8 +139,8 @@ export const blogPosts = [
         body: "Send your town or neighborhood, one close-up photo, one wider room photo, the approximate size of the damaged area, and whether it is a wall or ceiling. Also mention whether the damage came from moisture, whether the source has been fixed, and whether paint, primer, or trim touch-up should be included.",
       },
       {
-        heading: "Local drywall and sheetrock service area",
-        body: "LambertWorks handles drywall and sheetrock repair for homeowners near Plymouth Meeting, Blue Bell, Skippack, Whitemarsh Township, Lafayette Hill, Conshohocken, Norristown, and nearby Montgomery County neighborhoods.",
+        heading: "Local drywall and sheetrock repair service area",
+        body: "LambertWorks handles drywall and sheetrock repair for homeowners in Plymouth Meeting, Lafayette Hill, Conshohocken, Blue Bell, Skippack, Whitemarsh Township, Norristown, and nearby Montgomery County neighborhoods.",
       },
     ],
   },
@@ -148,15 +148,19 @@ export const blogPosts = [
     id: 3,
     slug: "basement-remodeling-plymouth-meeting-pa",
     image: basementRemodel,
-    category: "Basement Remodeling",
-    title: "Basement Remodeling Near Plymouth Meeting, PA Without Wasting Space",
-    seoTitle: "Basement Remodeling Plymouth Meeting, PA | Practical Finishing",
+    category: "Basement Repair & Finishing",
+    title: "Basement Wall Repair and Finishing Near Plymouth Meeting, PA",
+    seoTitle: "Basement Wall Repair Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Plan basement remodeling near Plymouth Meeting, PA with drywall, paint, trim, storage, and practical finishing work by LambertWorks.",
+      "Need basement wall repair near Plymouth Meeting, PA? LambertWorks helps with drywall, paint, trim, storage, and finishing after moisture issues are addressed.",
     excerpt:
-      "A basement can become more useful without overbuilding the project. Start with the way you want to use the space, then plan drywall, paint, trim, storage, and finishing details around that goal.",
-    primaryKeyword: "basement remodeling Plymouth Meeting PA",
+      "Bowing walls, water stains, and unfinished surfaces need the right next step. Learn what to review before basement wall repair, drywall, paint, trim, or finishing work.",
+    primaryKeyword: "basement wall repair Plymouth Meeting PA",
     keywords: [
+      "basement wall repair Plymouth Meeting PA",
+      "bowing basement wall repair Plymouth Meeting PA",
+      "basement wall stabilization Plymouth Meeting PA",
+      "basement leak repair Plymouth Meeting PA",
       "basement remodeling Plymouth Meeting PA",
       "basement finishing Plymouth Meeting PA",
       "basement drywall Plymouth Meeting",
@@ -190,15 +194,15 @@ export const blogPosts = [
     ],
     sections: [
       {
-        heading: "Start with how the basement will be used",
-        body: "A basement remodel should begin with the purpose of the space. Storage, laundry, play areas, a home office, a media room, hobbies, or a guest area each need different decisions for walls, paint, trim, storage, and layout. LambertWorks helps homeowners near Plymouth Meeting, Blue Bell, and Skippack plan practical improvements before the work starts.",
+        heading: "Start with the wall condition and how the basement will be used",
+        body: "Basement wall repair should begin with the condition of the space and its intended use. Storage, laundry, play areas, a home office, a media room, hobbies, or a guest area each need different decisions for walls, paint, trim, storage, and layout. LambertWorks helps homeowners near Plymouth Meeting, Blue Bell, and Skippack plan practical improvements before the work starts.",
       },
       {
-        heading: "Focus on usable improvements before a full remodel",
-        body: "Not every basement needs a full design-build renovation. Many homes benefit from drywall repairs, finished walls, painted surfaces, baseboards, cleaner storage areas, and improved transitions between unfinished and finished spaces. The goal is to make the basement more useful without adding work the space does not need.",
+        heading: "Review bowing walls, leaks, and stabilization needs first",
+        body: "Bowing walls, active leaks, recurring water stains, dampness, foundation cracks, or musty smells should be reviewed before cosmetic work begins. Structural movement, waterproofing, and major stabilization usually require a qualified specialist first. Once the source and scope are understood, LambertWorks can help with appropriate drywall, paint, trim, storage, and finishing work.",
       },
       {
-        heading: "Drywall, paint, and trim make the biggest visual difference",
+        heading: "Basement drywall, paint, and trim make the biggest visual difference",
         body: "Basements often feel unfinished because the walls, ceiling edges, and trim details are incomplete. Sheetrock repairs, sanding, paint prep, baseboards, caulking, and clean carpentry details can make the space feel more intentional, especially in a partially finished basement.",
       },
       {
@@ -224,14 +228,16 @@ export const blogPosts = [
     slug: "deck-patio-repair-whitemarsh-conshohocken",
     image: exteriorRepairs,
     category: "Decks, Patios & Exterior",
-    title: "Deck, Patio, and Exterior Repairs Around Whitemarsh and Conshohocken",
-    seoTitle: "Deck & Patio Repair Near Plymouth Meeting, PA | Exterior Handyman",
+    title: "Deck and Patio Repair Near Plymouth Meeting, PA",
+    seoTitle: "Deck Repair Near Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Plan deck, patio, step, railing, concrete touch-up, and exterior trim repairs near Plymouth Meeting, Whitemarsh, and Conshohocken.",
+      "Need deck or patio repair near Plymouth Meeting, PA? LambertWorks helps with deck boards, railings, steps, trim, and practical exterior repairs.",
     excerpt:
-      "Exterior repairs are not only about curb appeal. Review deck boards, patios, steps, railings, trim, and concrete touch-ups before outdoor areas become harder or less safe to use.",
-    primaryKeyword: "patio repair Plymouth Meeting PA",
+      "Deck boards, railings, steps, and patios take steady weather and daily-use wear. Learn which exterior repairs may fit a practical handyman estimate and when a specialist should review the work first.",
+    primaryKeyword: "deck repair near Plymouth Meeting PA",
     keywords: [
+      "deck repair near Plymouth Meeting PA",
+      "deck repair Plymouth Meeting PA",
       "patio repair Plymouth Meeting PA",
       "deck repair Whitemarsh",
       "exterior handyman Conshohocken",
@@ -266,15 +272,15 @@ export const blogPosts = [
     ],
     sections: [
       {
-        heading: "Exterior repairs protect daily use, not just curb appeal",
+        heading: "Deck and patio repairs protect daily use, not just curb appeal",
         body: "Decks, patios, steps, railings, trim, and concrete areas take steady wear from weather and daily use. Small exterior issues can become safety problems or larger repairs when they are ignored. LambertWorks helps homeowners near Plymouth Meeting review outdoor areas before they become harder to use.",
       },
       {
-        heading: "When deck repair is a practical handyman job",
+        heading: "Deck repair near Plymouth Meeting: what a handyman can handle",
         body: "Localized deck board repairs, worn walking surfaces, loose trim details, small carpentry items, and hardware issues may fit an exterior handyman estimate when the underlying structure is sound. Major movement, failing posts, ledger issues, widespread rot, or full rebuilds should be reviewed by a deck specialist or contractor.",
       },
       {
-        heading: "Patio and concrete touch-ups around the home",
+        heading: "Patio repair and concrete touch-ups near Plymouth Meeting",
         body: "Small cracks, chipped edges, worn step surfaces, and minor trip-risk areas may be practical repair or touch-up items depending on the condition. Major settling, drainage problems, or large slab failure usually belongs with a concrete specialist rather than a handyman repair list.",
       },
       {

@@ -1,0 +1,17 @@
+# ----------------------------------------
+# Eventos: Nombre del evento
+# Cuenta: jozaguts
+# Propiedad: lambert-works
+# ----------------------------------------
+# 
+# Todos los usuarios
+# Fecha de inicio: 20260819
+# Fecha de finalización: 20260915
+Nombre del evento,Número de eventos,Total de usuarios,Número de eventos por usuario activo,Total de ingresos
+page_view,43,31,1.3870967741935485,0
+session_start,34,31,1.096774193548387,0
+scroll,33,27,1.2222222222222223,0
+first_visit,32,31,1.032258064516129,0
+user_engagement,17,16,1.0625,0
+click,2,2,1,0
+generate_lead,1,1,1,0

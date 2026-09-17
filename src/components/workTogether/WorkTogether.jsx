@@ -1,6 +1,6 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { trackLead } from "../../utils/analytics";
+import { trackContactClick } from "../../utils/analytics";
 
 const WorkTogether = () => {
   return (
@@ -14,7 +14,9 @@ const WorkTogether = () => {
         </p>
         <a
           href="mailto:hello@lambertworks.us"
-          onClick={() => trackLead("email_work_together")}
+          onClick={() =>
+            trackContactClick("email", { placement: "work_together" })
+          }
           className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
         >
           Email for a Free Estimate

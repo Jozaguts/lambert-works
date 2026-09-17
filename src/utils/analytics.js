@@ -15,3 +15,10 @@ export const trackLead = (method, params = {}) => {
     ...params,
   });
 };
+
+export const trackContactClick = (method, params = {}) => {
+  trackEvent("contact_click", {
+    contact_method: method,
+    ...params,
+  });
+};
