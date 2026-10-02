@@ -1,4 +1,6 @@
-import person from "../../assets/images/collage.webp";
+import ResponsiveImage from "../../components/common/ResponsiveImage";
+import images from "../../data/images.json";
+const person = images["collage.webp"];
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 
@@ -30,13 +32,13 @@ const Introduction = () => {
       <div className="w-full flex flex-col justify-between max-lg:text-center">
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
           <h1 className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
-            Honey-Do List
-            <span className=" shrink-0 inline-block  w-full">
-             Handyman in Plymouth Meeting, PA
-            </span>
+            Handyman in Plymouth Meeting, PA
           </h1>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
             Send the repair list you keep putting off. LambertWorks helps homeowners near <span className="bg-highlight">Plymouth Meeting, Blue Bell, and Skippack, PA</span> get clear estimates and clean, finished work for drywall, paint, trim, patios, installs, and practical home fixes.
+          </p>
+          <p className="mb-5 text-sm text-soft-dark">
+            Need wall patches or paint prep? <a className="font-semibold text-primary-dark underline underline-offset-4" href="/blog/drywall-repair-plymouth-meeting-pa/">Drywall repair in Plymouth Meeting</a>, Conshohocken, Lafayette Hill and Norristown.
           </p>
           <p className="text-center lg:text-start">
             <a
@@ -62,12 +64,16 @@ const Introduction = () => {
         </div>
       </div>
       <div
-        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-2/3 relative`}
+        style={{ aspectRatio: `${person.width} / ${person.height}` }}
+        className={`max-w-134 w-full h-auto max-lg:mx-auto relative`}
       >
-        <img
-          className={`shadow-2xl shadow-gray-200 w-full h-full  absolute bottom-0 object-[2/3] bg-white rounded-3xl`}
+        <ResponsiveImage
+          className={`shadow-2xl shadow-gray-200 w-full h-full  absolute bottom-0 object-cover bg-white rounded-3xl`}
           src={person}
-          alt="person"
+          loading="eager"
+          fetchPriority="high"
+          sizes="(max-width: 1024px) 100vw, 536px"
+          alt="LambertWorks home repair, carpentry and painting projects"
         />
       </div>
     </div>

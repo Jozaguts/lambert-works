@@ -1,11 +1,19 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import { router } from "./routes/Router";
-import { RouterProvider } from "react-router-dom";
-import "../src/../index.css";
+import { createRoot, hydrateRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/Router";
+import "../index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const app = (
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   </React.StrictMode>
 );
+const root = document.getElementById("root");
+if (root.hasChildNodes()) {
+  hydrateRoot(root, app);
+} else {
+  createRoot(root).render(app);
+}

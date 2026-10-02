@@ -1,4 +1,6 @@
-import repairImage from "../../assets/images/honey-do-list.webp";
+import ResponsiveImage from "../../components/common/ResponsiveImage";
+import images from "../../data/images.json";
+const repairImage = images["honey-do-list.webp"];
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileSignature } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
@@ -12,7 +14,7 @@ const Profile = () => {
       <div className="flex max-md:flex-col justify-between items-center gap-8 lg:gap-14">
         <div className="xxl:max-w-106 w-auto h-auto xxl:max-h-126">
           <div className="max-w-106 h-117 object-fill overflow-hidden rounded-xl">
-            <img
+            <ResponsiveImage
               className="bg-soft-white h-full w-full object-cover"
               src={repairImage}
               alt="Drywall repair work for a honey-do list"
@@ -42,7 +44,7 @@ const Profile = () => {
               Send the list. We'll help you sort it, price it, and start checking things off.
             </p>
           </div>
-          <div className="mt-8 flex max-md:justify-center">
+          <div className="mt-8 flex flex-wrap gap-3 max-md:justify-center">
             <a
               className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
               href="#services"
@@ -50,7 +52,8 @@ const Profile = () => {
               See What Fits the List
             </a>
             <Link
-              className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-primary bg-white duration-300 transition-all hover:text-primary  ms-4 text-xs xxs:text-[14px] sm:text-[16px]`}
+              href="#contact"
+              className={`btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 hover:border-primary bg-white duration-300 transition-all hover:text-primary-dark text-xs xxs:text-[14px] sm:text-[16px]`}
               to="contact"
               smooth={true}
               duration={900}

@@ -1,3 +1,4 @@
+import { updatePageSeo } from "../utils/seo";
 import { useEffect } from "react";
 import Introduction from "../components/introduction/Introduction";
 import Profile from "../components/profile/Profile";
@@ -14,6 +15,7 @@ import "../../index.css";
 
 const Home = () => {
   useEffect(() => {
+    updatePageSeo();
     if (!window.location.hash) {
       return;
     }
@@ -28,7 +30,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="relative">
+    <main id="main-content" className="relative">
       <div className="introduction-profile-background">
         <div className="content">
           <Introduction />
@@ -52,7 +54,7 @@ const Home = () => {
       <Faq />
       <Contact />
         <Profile />
-    </div>
+    </main>
   );
 };
 

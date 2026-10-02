@@ -2,29 +2,29 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-670S7XVRPK"></script>
+    <!-- Load production analytics only on the public business domain. -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-670S7XVRPK');
+        if (["lambertworks.us", "www.lambertworks.us"].includes(window.location.hostname)) {
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () { window.dataLayer.push(arguments); };
+            window.gtag("js", new Date());
+            window.gtag("config", "G-670S7XVRPK");
+            const googleTag = document.createElement("script");
+            googleTag.async = true;
+            googleTag.src = "https://www.googletagmanager.com/gtag/js?id=G-670S7XVRPK";
+            document.head.appendChild(googleTag);
+        }
     </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" class="rounded-b-4xl w-8 text-white" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/index.css">
     <link rel="canonical" href="https://lambertworks.us/" />
 
-    <style>
-        /* Google font - Work Sans */
-        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
+    <link rel="preload" href="/fonts/work-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
 
-    <title>Honey-Do List Handyman in Plymouth Meeting, PA | LambertWorks</title>
+    <title>Handyman in Plymouth Meeting, PA | LambertWorks</title>
     <meta name="description"
-          content="LambertWorks handles honey-do list repairs, drywall, painting, carpentry, patios, and household fixes in Plymouth Meeting, Blue Bell, Skippack, and nearby Montgomery County, PA." />
+          content="Local handyman for drywall repair, painting, carpentry and home repairs in Plymouth Meeting, Blue Bell and Skippack, PA. Free estimate — call today." />
     <meta name="keywords"
           content="honey do list handyman Plymouth Meeting PA, handyman Plymouth Meeting PA, home repair Plymouth Meeting PA, handyman near Blue Bell PA, handyman near Skippack PA, local handyman Montgomery County PA, drywall repair Plymouth Meeting, painting services, carpentry services, basement remodeling, patio repair, residential handyman, home improvement contractor" />
     <meta name="author" content="LambertWorks" />
@@ -32,8 +32,8 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://lambertworks.us/" />
-    <meta property="og:title" content="Honey-Do List Handyman in Plymouth Meeting, PA | LambertWorks" />
-    <meta property="og:description" content="LambertWorks handles honey-do list repairs, drywall, painting, carpentry, patios, and household fixes in Plymouth Meeting, Blue Bell, Skippack, and nearby Montgomery County, PA." />
+    <meta property="og:title" content="Handyman in Plymouth Meeting, PA | LambertWorks" />
+    <meta property="og:description" content="Local handyman for drywall repair, painting, carpentry and home repairs in Plymouth Meeting, Blue Bell and Skippack, PA. Free estimate — call today." />
     <meta property="og:image" content="https://lambertworks.us/og-social.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -41,8 +41,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Honey-Do List Handyman in Plymouth Meeting, PA | LambertWorks" />
-    <meta name="twitter:description" content="LambertWorks handles honey-do list repairs, drywall, painting, carpentry, patios, and household fixes in Plymouth Meeting, Blue Bell, Skippack, and nearby Montgomery County, PA." />
+    <meta name="twitter:title" content="Handyman in Plymouth Meeting, PA | LambertWorks" />
+    <meta name="twitter:description" content="Local handyman for drywall repair, painting, carpentry and home repairs in Plymouth Meeting, Blue Bell and Skippack, PA. Free estimate — call today." />
     <meta name="twitter:image" content="https://lambertworks.us/og-social.jpg" />
     <meta name="twitter:image:alt" content="LambertWorks — Honey-Do List Handyman in Plymouth Meeting, PA" />
 
@@ -103,7 +103,6 @@
 <body class="">
     <div id="root" class=""></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script type="module" src="https://unpkg.com/cally"></script>
 </body>
 
 </html>

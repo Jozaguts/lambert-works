@@ -77,6 +77,7 @@ const Form = () => {
         <form className="flex flex-col gap-4 mt-4" onSubmit={handleSubmit}>
           <input
             name="name"
+            aria-label="Name"
             type="text"
             placeholder="Name*"
             className={`${commonClass}`}
@@ -84,6 +85,7 @@ const Form = () => {
           />
           <input
             name="email"
+            aria-label="Email"
             type="email"
             placeholder="Email*"
             className={`${commonClass}`}
@@ -91,6 +93,7 @@ const Form = () => {
           />
           <input
             name="location"
+            aria-label="Location"
             type="text"
             placeholder="Location*"
             className={`${commonClass}`}
@@ -100,6 +103,7 @@ const Form = () => {
           <div className="flex max-xs:flex-col max-xs:gap-4">
             <input
               name="timing"
+            aria-label="Preferred timing"
               type="text"
               placeholder="Preferred Timing*"
               className={`${commonClass} xs:w-[50%] me-5`}
@@ -107,6 +111,7 @@ const Form = () => {
             />
             <input
               name="project_type"
+            aria-label="Project type"
               type="text"
               placeholder="Project Type*"
               value={projectType}
@@ -118,6 +123,7 @@ const Form = () => {
 
           <input
             name="details"
+            aria-label="Project details"
             type="text"
             placeholder="Project Details*"
             className={`${commonClass}`}

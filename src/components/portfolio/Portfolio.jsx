@@ -1,10 +1,11 @@
+import images from "../../data/images.json";
 import Projects from "./Projects";
-import drywallRepair from "../../assets/images/IMG_6898.jpg";
-import interiorPainting from "../../assets/images/IMG-20260401.jpg";
-import concreteWork from "../../assets/images/53A11B98-E6B1-481F-A9FC-8465589049FB.jpg.jpg";
-import carpentryWork from "../../assets/images/IMG_6595.jpg";
-import basementRemodel from "../../assets/images/IMG-20260401-WA0010.jpg.jpg";
-import outdoorUpgrade from "../../assets/images/IMG_7150-1.jpg";
+const drywallRepair = images["IMG_6898.jpg"];
+const interiorPainting = images["IMG-20260401.jpg"];
+const concreteWork = images["53A11B98-E6B1-481F-A9FC-8465589049FB.jpg.jpg"];
+const carpentryWork = images["IMG_6595.jpg"];
+const basementRemodel = images["IMG-20260401-WA0010.jpg.jpg"];
+const outdoorUpgrade = images["IMG_7150-1.jpg"];
 
 const projectData = [
   {
@@ -72,7 +73,7 @@ const Portfolio = () => {
       <div className="xl:mb-17.5 mb-5">
         <div className="max-sm:px-2 text-center mx-auto max-w-144.25">
           <p className="section-title ">Recent Projects</p>
-          <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-400">
+          <p className="font-normal text-[18px] max-sm:text-[14px] pt-6 text-gray-600">
             A quick look at the types of repairs, remodels, and exterior upgrades LambertWorks handles for local homeowners.
           </p>
         </div>

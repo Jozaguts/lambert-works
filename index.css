@@ -4,6 +4,14 @@
   themes: light --default, dark --prefersdark, cupcake;
 }
 
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/fonts/work-sans-latin.woff2") format("woff2");
+}
+
 * {
   transition-property: color, background-color, border-color, text-decoration-color,
     fill, stroke, opacity, box-shadow, transform, filter;
@@ -21,7 +29,7 @@
   --breakpoint-xs: 23.125rem; /* COMMENT: 363px */
   --breakpoint-xxl: 82.5rem; /* COMMENT: 1320px */
   --color-primary: #fbb040;
-  --color-primary-dark: #d88912;
+  --color-primary-dark: #855000;
   --color-picto-primary: #fbb040;
   --color-ink: #010101;
   --color-charcoal: #333335;
@@ -64,8 +72,8 @@
 
 .btn.btn-primary:hover,
 .btn-primary:hover {
-  background-color: #d88912;
-  border-color: #d88912;
+  background-color: #855000;
+  border-color: #855000;
   color: #ffffff;
 }
 
@@ -127,3 +135,6 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+section[id], div[id] { scroll-margin-top: 100px; }

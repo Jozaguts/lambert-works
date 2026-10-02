@@ -41,20 +41,21 @@ const ScrollToTop = () => {
             placement: "floating_button",
           })
         }
-        className="w-10 h-10 sm:w-12.5 sm:h-12.5 lg:w-15 lg:h-15 flex justify-center items-center rounded-full transition delay-150 duration-500 ease-in-out hover:scale-120 hover:cursor-pointer bg-primary hover:bg-primary-dark text-white shadow-lg"
+        className="w-10 h-10 sm:w-12.5 sm:h-12.5 lg:w-15 lg:h-15 flex justify-center items-center rounded-full transition delay-150 duration-500 ease-in-out hover:scale-120 hover:cursor-pointer bg-primary hover:bg-primary-dark text-ink shadow-lg"
       >
         <FontAwesomeIcon icon={faInstagram} size="2xl" />
       </a>
-      <a
+      <button
+        type="button"
         onClick={scrollToTop}
         role="button"
         aria-label="Scroll to top"
-        className={`w-10 h-10 sm:w-12.5 sm:h-12.5 lg:w-15 lg:h-15 flex justify-center items-center rounded-full transition delay-150 duration-500 ease-in-out hover:scale-120 hover:cursor-pointer bg-primary hover:bg-primary-dark text-ink hover:text-white shadow-lg ${
+        className={`w-10 h-10 sm:w-12.5 sm:h-12.5 lg:w-15 lg:h-15 flex justify-center items-center rounded-full transition delay-150 duration-500 ease-in-out hover:scale-120 hover:cursor-pointer bg-primary hover:bg-primary-dark text-ink hover:text-ink shadow-lg ${
           position < 200 && "scale-0"
         }`}
       >
         <FontAwesomeIcon icon={faAngleUp} size="2xl" />
-      </a>
+      </button>
     </div>
   );
 };

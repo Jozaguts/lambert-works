@@ -1,12 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Roles = ({ role }) => {
   const [mouseHover, setMouseHover] = useState(false);
-  useEffect(() => {
-    window.addEventListener("mouseenter", (e) => {
-      console.log("Mouse entered on the: ", e.target);
-    });
-  }, []);
+
 
   return (
     <div
@@ -21,7 +17,7 @@ const Roles = ({ role }) => {
       />
       <div>
         <p className="text-xl sm:text-2xl font-semibold text-gray-900 pb-4">
-          {role?.title}
+          {role?.href ? <a className="underline underline-offset-4" href={role.href}>{role.title}</a> : role?.title}
         </p>
         <p className="text-[13px] sm:text-[16px] font-normal text-gray-700">
           {role?.description}

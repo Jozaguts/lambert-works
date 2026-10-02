@@ -1,16 +1,19 @@
-import handymanRepairs from "../assets/images/IMG_6449.jpg";
-import drywallRepair from "../assets/images/IMG_6898.jpg";
-import basementRemodel from "../assets/images/IMG-20260401-WA0010.jpg.jpg";
-import exteriorRepairs from "../assets/images/IMG_7150-1.jpg";
+import images from "../data/images.json";
+const handymanRepairs = images["IMG_6449.jpg"];
+const drywallRepair = images["IMG_6898.jpg"];
+const basementRemodel = images["IMG-20260401-WA0010.jpg.jpg"];
+const exteriorRepairs = images["IMG_7150-1.jpg"];
 
 export const blogPosts = [
   {
     id: 1,
+    datePublished: "2026-05-09",
+    dateModified: "2026-06-12",
     slug: "handyman-plymouth-meeting-pa",
     image: handymanRepairs,
     category: "Handyman Plymouth Meeting",
     title: "Honey-Do List Handyman in Plymouth Meeting, PA",
-    seoTitle: "Honey-Do List Handyman Plymouth Meeting, PA | LambertWorks",
+    seoTitle: "Handyman in Plymouth Meeting, PA | LambertWorks",
     metaDescription:
       "Need a handyman in Plymouth Meeting, PA? LambertWorks helps with honey-do lists, drywall, trim, paint touch-ups, installs, patios, and home repairs.",
     excerpt:
@@ -72,13 +75,15 @@ export const blogPosts = [
   },
   {
     id: 2,
+    datePublished: "2026-05-09",
+    dateModified: "2026-06-12",
     slug: "drywall-repair-plymouth-meeting-pa",
     image: drywallRepair,
     category: "Drywall Repair",
     title: "Drywall Repair Near Plymouth Meeting, PA: Patch and Paint Prep",
     seoTitle: "Drywall Repair Near Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Need drywall repair near Plymouth Meeting, Conshohocken, or Lafayette Hill, PA? LambertWorks handles patches, sanding, primer, and paint prep.",
+      "Drywall repair in Plymouth Meeting, Conshohocken and Lafayette Hill, PA. Patching, sanding and paint prep by LambertWorks. Free estimate — call today.",
     excerpt:
       "Wall damage is rarely just a hole. Learn how drywall patches, sanding, primer, paint prep, and nearby trim repairs fit into a clean estimate.",
     primaryKeyword: "drywall repair Plymouth Meeting PA",
@@ -146,6 +151,8 @@ export const blogPosts = [
   },
   {
     id: 3,
+    datePublished: "2026-05-09",
+    dateModified: "2026-06-12",
     slug: "basement-remodeling-plymouth-meeting-pa",
     image: basementRemodel,
     category: "Basement Repair & Finishing",
@@ -225,6 +232,8 @@ export const blogPosts = [
   },
   {
     id: 4,
+    datePublished: "2026-05-09",
+    dateModified: "2026-06-12",
     slug: "deck-patio-repair-whitemarsh-conshohocken",
     image: exteriorRepairs,
     category: "Decks, Patios & Exterior",
@@ -307,6 +316,8 @@ export const blogPosts = [
   },
   {
     id: 5,
+    datePublished: "2026-09-17",
+    dateModified: "2026-09-17",
     slug: "wood-deck-staining-plymouth-meeting-pa",
     featured: true,
     image: "/images/image12.webp",
@@ -387,6 +398,8 @@ export const blogPosts = [
   },
   {
     id: 6,
+    datePublished: "2026-09-17",
+    dateModified: "2026-09-17",
     slug: "basement-ceiling-painting-plymouth-meeting-pa",
     featured: true,
     image: "/images/image7.webp",

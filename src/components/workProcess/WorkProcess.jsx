@@ -45,7 +45,7 @@ const WorkProcess = () => {
     >
       <div className="lg:pe-10 xl:pe-35.75 max-xs:mb-3 max-xl:mb-8">
         <p className="section-title max-xl:text-center">How the Work Gets Done</p>
-        <p className="mt-6 mb-4 md:text-[18px] text-sm font-normal max-xl:text-center text-gray-500">
+        <p className="mt-6 mb-4 md:text-[18px] text-sm font-normal max-xl:text-center text-gray-600">
           A simple process for homeowners who want clear answers, clean work, and no surprises.
         </p>
       </div>

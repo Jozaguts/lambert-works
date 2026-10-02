@@ -1,0 +1,154 @@
+{
+  "/images/image1.webp": {
+    "src": "/images/optimized/image1-1024.webp",
+    "width": 1024,
+    "height": 768,
+    "srcSet": "/images/optimized/image1-320.webp 320w, /images/optimized/image1-640.webp 640w, /images/optimized/image1-960.webp 960w, /images/optimized/image1-1024.webp 1024w"
+  },
+  "/images/image10.webp": {
+    "src": "/images/optimized/image10-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image10-320.webp 320w, /images/optimized/image10-640.webp 640w, /images/optimized/image10-768.webp 768w"
+  },
+  "/images/image11.webp": {
+    "src": "/images/optimized/image11-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image11-320.webp 320w, /images/optimized/image11-640.webp 640w, /images/optimized/image11-768.webp 768w"
+  },
+  "/images/image12.webp": {
+    "src": "/images/optimized/image12-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image12-320.webp 320w, /images/optimized/image12-640.webp 640w, /images/optimized/image12-768.webp 768w"
+  },
+  "/images/image13.webp": {
+    "src": "/images/optimized/image13-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image13-320.webp 320w, /images/optimized/image13-640.webp 640w, /images/optimized/image13-768.webp 768w"
+  },
+  "/images/image14.webp": {
+    "src": "/images/optimized/image14-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image14-320.webp 320w, /images/optimized/image14-640.webp 640w, /images/optimized/image14-768.webp 768w"
+  },
+  "/images/image15.webp": {
+    "src": "/images/optimized/image15-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image15-320.webp 320w, /images/optimized/image15-640.webp 640w, /images/optimized/image15-768.webp 768w"
+  },
+  "/images/image2.webp": {
+    "src": "/images/optimized/image2-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "srcSet": "/images/optimized/image2-320.webp 320w, /images/optimized/image2-640.webp 640w, /images/optimized/image2-960.webp 960w, /images/optimized/image2-1280.webp 1280w"
+  },
+  "/images/image3.webp": {
+    "src": "/images/optimized/image3-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image3-320.webp 320w, /images/optimized/image3-640.webp 640w, /images/optimized/image3-768.webp 768w"
+  },
+  "/images/image4.webp": {
+    "src": "/images/optimized/image4-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image4-320.webp 320w, /images/optimized/image4-640.webp 640w, /images/optimized/image4-768.webp 768w"
+  },
+  "/images/image5.webp": {
+    "src": "/images/optimized/image5-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image5-320.webp 320w, /images/optimized/image5-640.webp 640w, /images/optimized/image5-768.webp 768w"
+  },
+  "/images/image6.webp": {
+    "src": "/images/optimized/image6-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image6-320.webp 320w, /images/optimized/image6-640.webp 640w, /images/optimized/image6-768.webp 768w"
+  },
+  "/images/image7.webp": {
+    "src": "/images/optimized/image7-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image7-320.webp 320w, /images/optimized/image7-640.webp 640w, /images/optimized/image7-768.webp 768w"
+  },
+  "/images/image8.webp": {
+    "src": "/images/optimized/image8-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image8-320.webp 320w, /images/optimized/image8-640.webp 640w, /images/optimized/image8-768.webp 768w"
+  },
+  "/images/image9.webp": {
+    "src": "/images/optimized/image9-768.webp",
+    "width": 768,
+    "height": 1024,
+    "srcSet": "/images/optimized/image9-320.webp 320w, /images/optimized/image9-640.webp 640w, /images/optimized/image9-768.webp 768w"
+  },
+  "53A11B98-E6B1-481F-A9FC-8465589049FB.jpg.jpg": {
+    "src": "/images/optimized/53A11B98-E6B1-481F-A9FC-8465589049FB-jpg-1080.webp",
+    "width": 1080,
+    "height": 1920,
+    "srcSet": "/images/optimized/53A11B98-E6B1-481F-A9FC-8465589049FB-jpg-320.webp 320w, /images/optimized/53A11B98-E6B1-481F-A9FC-8465589049FB-jpg-640.webp 640w, /images/optimized/53A11B98-E6B1-481F-A9FC-8465589049FB-jpg-960.webp 960w, /images/optimized/53A11B98-E6B1-481F-A9FC-8465589049FB-jpg-1080.webp 1080w"
+  },
+  "IMG-20260401-WA0010.jpg.jpg": {
+    "src": "/images/optimized/IMG-20260401-WA0010-jpg-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcSet": "/images/optimized/IMG-20260401-WA0010-jpg-320.webp 320w, /images/optimized/IMG-20260401-WA0010-jpg-640.webp 640w, /images/optimized/IMG-20260401-WA0010-jpg-960.webp 960w"
+  },
+  "IMG-20260401.jpg": {
+    "src": "/images/optimized/IMG-20260401-960.webp",
+    "width": 960,
+    "height": 720,
+    "srcSet": "/images/optimized/IMG-20260401-320.webp 320w, /images/optimized/IMG-20260401-640.webp 640w, /images/optimized/IMG-20260401-960.webp 960w"
+  },
+  "IMG_6449.jpg": {
+    "src": "/images/optimized/IMG_6449-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "srcSet": "/images/optimized/IMG_6449-320.webp 320w, /images/optimized/IMG_6449-640.webp 640w, /images/optimized/IMG_6449-960.webp 960w, /images/optimized/IMG_6449-1280.webp 1280w"
+  },
+  "IMG_6595.jpg": {
+    "src": "/images/optimized/IMG_6595-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "srcSet": "/images/optimized/IMG_6595-320.webp 320w, /images/optimized/IMG_6595-640.webp 640w, /images/optimized/IMG_6595-960.webp 960w, /images/optimized/IMG_6595-1280.webp 1280w"
+  },
+  "IMG_6898.jpg": {
+    "src": "/images/optimized/IMG_6898-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "srcSet": "/images/optimized/IMG_6898-320.webp 320w, /images/optimized/IMG_6898-640.webp 640w, /images/optimized/IMG_6898-960.webp 960w, /images/optimized/IMG_6898-1280.webp 1280w"
+  },
+  "IMG_7150-1.jpg": {
+    "src": "/images/optimized/IMG_7150-1-1280.webp",
+    "width": 1280,
+    "height": 1707,
+    "srcSet": "/images/optimized/IMG_7150-1-320.webp 320w, /images/optimized/IMG_7150-1-640.webp 640w, /images/optimized/IMG_7150-1-960.webp 960w, /images/optimized/IMG_7150-1-1280.webp 1280w"
+  },
+  "collage.webp": {
+    "src": "/images/optimized/collage-1150.webp",
+    "width": 1150,
+    "height": 1368,
+    "srcSet": "/images/optimized/collage-320.webp 320w, /images/optimized/collage-640.webp 640w, /images/optimized/collage-960.webp 960w, /images/optimized/collage-1150.webp 1150w",
+    "avifSrc": "/images/optimized/collage-1150.avif",
+    "avifSrcSet": "/images/optimized/collage-320.avif 320w, /images/optimized/collage-640.avif 640w, /images/optimized/collage-960.avif 960w, /images/optimized/collage-1150.avif 1150w"
+  },
+  "honey-do-list.webp": {
+    "src": "/images/optimized/honey-do-list-1199.webp",
+    "width": 1199,
+    "height": 1312,
+    "srcSet": "/images/optimized/honey-do-list-320.webp 320w, /images/optimized/honey-do-list-640.webp 640w, /images/optimized/honey-do-list-960.webp 960w, /images/optimized/honey-do-list-1199.webp 1199w"
+  },
+  "logo.png": {
+    "src": "/images/optimized/logo-524.webp",
+    "width": 524,
+    "height": 283,
+    "srcSet": "/images/optimized/logo-64.webp 64w, /images/optimized/logo-128.webp 128w, /images/optimized/logo-320.webp 320w, /images/optimized/logo-524.webp 524w"
+  }
+}

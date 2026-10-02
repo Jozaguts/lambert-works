@@ -1,101 +1,11 @@
+import ResponsiveImage from "../components/common/ResponsiveImage";
+import { updatePageSeo } from "../utils/seo";
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { blogPosts, getBlogPostBySlug } from "../data/blogPosts";
 import { trackContactClick } from "../utils/analytics";
-
-const siteUrl = "https://lambertworks.us";
-
-const getBlogPostUrl = (slug) => `${siteUrl}/blog/${slug}/`;
-
-const setMetaTag = (name, content, attribute = "name") => {
-  let tag = document.querySelector(`meta[${attribute}="${name}"]`);
-
-  if (!tag) {
-    tag = document.createElement("meta");
-    tag.setAttribute(attribute, name);
-    document.head.appendChild(tag);
-  }
-
-  tag.setAttribute("content", content);
-};
-
-const setCanonical = (href) => {
-  let link = document.querySelector('link[rel="canonical"]');
-
-  if (!link) {
-    link = document.createElement("link");
-    link.setAttribute("rel", "canonical");
-    document.head.appendChild(link);
-  }
-
-  link.setAttribute("href", href);
-};
-
-const setJsonLd = (post, canonicalUrl) => {
-  const existing = document.getElementById("blog-post-schema");
-
-  if (existing) {
-    existing.remove();
-  }
-
-  const script = document.createElement("script");
-  script.id = "blog-post-schema";
-  script.type = "application/ld+json";
-  const blogSchema = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: post.title,
-    description: post.metaDescription,
-    image: `${siteUrl}${post.image}`,
-    mainEntityOfPage: canonicalUrl,
-    author: {
-      "@type": "Organization",
-      name: "LambertWorks",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "LambertWorks",
-    },
-    areaServed: [
-      "Plymouth Meeting",
-      "Blue Bell",
-      "Skippack",
-      "Whitemarsh Township",
-      "Lafayette Hill",
-      "Conshohocken",
-      "Norristown",
-      "Montgomery County, PA",
-    ],
-    keywords: post.keywords.join(", "),
-  };
-
-  if (!post.faqs?.length) {
-    script.textContent = JSON.stringify(blogSchema);
-    document.head.appendChild(script);
-    return;
-  }
-
-  script.textContent = JSON.stringify({
-    "@context": "https://schema.org",
-    "@graph": [
-      blogSchema,
-      {
-        "@type": "FAQPage",
-        mainEntity: post.faqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: faq.answer,
-          },
-        })),
-      },
-    ],
-  });
-  document.head.appendChild(script);
-};
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -105,35 +15,12 @@ const BlogPost = () => {
     .filter(Boolean) ?? [];
 
   useEffect(() => {
-    if (!post) {
-      document.title = "Home Repair Article Not Found | LambertWorks";
-      return;
-    }
-
-    const canonicalUrl = getBlogPostUrl(post.slug);
-
-    document.title = post.seoTitle;
-    setMetaTag("description", post.metaDescription);
-    setMetaTag("keywords", post.keywords.join(", "));
-    const ogImage = `${siteUrl}${post.image}`;
-    setMetaTag("og:title", post.seoTitle, "property");
-    setMetaTag("og:description", post.metaDescription, "property");
-    setMetaTag("og:type", "article", "property");
-    setMetaTag("og:url", canonicalUrl, "property");
-    setMetaTag("og:image", ogImage, "property");
-    setMetaTag("og:image:alt", post.title, "property");
-    setMetaTag("twitter:card", "summary_large_image");
-    setMetaTag("twitter:title", post.seoTitle);
-    setMetaTag("twitter:description", post.metaDescription);
-    setMetaTag("twitter:image", ogImage);
-    setMetaTag("twitter:image:alt", post.title);
-    setCanonical(canonicalUrl);
-    setJsonLd(post, canonicalUrl);
+    updatePageSeo(post);
   }, [post]);
 
   if (!post) {
     return (
-      <main className="content px-4 py-20 text-center">
+      <main id="main-content" className="content px-4 py-20 text-center">
         <p className="section-title">Article not found</p>
         <p className="mx-auto mt-4 max-w-2xl text-soft-dark">
           The article you are looking for is not available. Return to the home
@@ -147,7 +34,7 @@ const BlogPost = () => {
   }
 
   return (
-    <main className="bg-soft-white">
+    <main id="main-content" className="bg-soft-white">
       <article className="content px-4 py-14 md:py-20">
         <div className="mx-auto max-w-xlg">
           <Link
@@ -171,10 +58,13 @@ const BlogPost = () => {
           </header>
 
           <div className="mx-auto mt-10 max-w-170 overflow-hidden rounded-lg bg-white shadow-xl shadow-gray-200">
-            <img
+            <ResponsiveImage
               src={post.image}
+              loading="eager"
+              fetchPriority="high"
+              sizes="(max-width: 768px) calc(100vw - 32px), 680px"
               alt={`${post.primaryKeyword} project by LambertWorks`}
-              className="h-auto max-h-[560px] w-full object-cover"
+              className="h-[360px] sm:h-[480px] w-full object-cover"
             />
           </div>
 
@@ -185,7 +75,7 @@ const BlogPost = () => {
                   className="overflow-hidden rounded-lg bg-white shadow-sm"
                   key={image.src}
                 >
-                  <img
+                  <ResponsiveImage
                     src={image.src}
                     alt={image.alt}
                     className="h-56 w-full object-cover"

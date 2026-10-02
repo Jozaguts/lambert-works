@@ -1,5 +1,7 @@
+import ResponsiveImage from "../../../components/common/ResponsiveImage";
+import images from "../../../data/images.json";
 import { useEffect, useState } from "react";
-import logo from "../../../assets/logo.png";
+const logo = images["logo.png"];
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink, useLocation } from "react-router-dom";
 
@@ -40,6 +42,7 @@ const NavBar = () => {
       <li key={item.id} onMouseDown={(e) => e.preventDefault()}>
         {isHomePage ? (
           <ScrollLink
+            href={`#${sectionId}`}
             onClick={handleMenuClick}
             to={sectionId}
             smooth={true}
@@ -50,7 +53,7 @@ const NavBar = () => {
               backgroundColor: "#fbb040",
               color: "#010101",
             }}
-            className="hover:text-primary px-5 py-3 mx-1"
+            className="hover:text-primary-dark px-5 py-3 mx-1"
           >
             {item.name}
           </ScrollLink>
@@ -58,7 +61,7 @@ const NavBar = () => {
           <RouterLink
             onClick={handleMenuClick}
             to={`/#${sectionId}`}
-            className="hover:text-primary px-5 py-3 mx-1"
+            className="hover:text-primary-dark px-5 py-3 mx-1"
           >
             {item.name}
           </RouterLink>
@@ -68,17 +71,17 @@ const NavBar = () => {
   });
 
   return (
-    <div
+    <header
       className={`sticky top-0 ${
         position > 50
           ? "bg-soft-white border-b border-gray-300"
           : "bg-white border-white"
       } z-50 transition-all duration-1000`}
     >
-      <div className="navbar flex justify-between mx-auto content">
+      <nav aria-label="Main navigation" className="navbar flex justify-between mx-auto content">
         <div className="flex items-center justify-between">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" aria-label="Open navigation menu" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -110,8 +113,8 @@ const NavBar = () => {
               duration={900}
               className="flex items-center border-0 lg:max-xxl:ps-5"
             >
-              <img src={logo} className="h-8 sm:h-14 w-full max-w-[200px] rounded-2xl" alt="logo" />
-              <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
+              <ResponsiveImage src={logo} className="h-8 sm:h-14 w-auto object-contain rounded-2xl" alt="LambertWorks" loading="eager" sizes="56px" />
+              <p className="text-lg xs:text-xl sm:text-[32px] my-auto ms-[12px] font-semibold">
                 LambertWorks
               </p>
             </ScrollLink>
@@ -120,8 +123,8 @@ const NavBar = () => {
               to="/#introduction"
               className="flex items-center border-0 lg:max-xxl:ps-5"
             >
-              <img src={logo} className="h-8 sm:h-14 w-full max-w-[200px] rounded-2xl" alt="logo" />
-              <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
+              <ResponsiveImage src={logo} className="h-8 sm:h-14 w-auto object-contain rounded-2xl" alt="LambertWorks" loading="eager" sizes="56px" />
+              <p className="text-lg xs:text-xl sm:text-[32px] my-auto ms-[12px] font-semibold">
                 LambertWorks
               </p>
             </RouterLink>
@@ -153,8 +156,8 @@ const NavBar = () => {
             )}
           </p>
         </div>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

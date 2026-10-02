@@ -1,0 +1,14 @@
+.native-carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  padding: 4px;
+}
+.native-carousel > li { min-width: 0; scroll-snap-align: start; }
+@media (min-width: 640px) { .native-carousel-multiple { grid-auto-columns: calc((100% - 24px) / 2); } }
+@media (min-width: 768px) { .native-carousel-multiple { grid-auto-columns: calc((100% - 48px) / 3); } }
+@media (min-width: 1220px) { .native-carousel-multiple { grid-auto-columns: calc((100% - 72px) / 4); } }

@@ -29,6 +29,7 @@ const rolesData = [
   {
     id: 6,
     title: "Drywall & Sheetrock",
+    href: "/blog/drywall-repair-plymouth-meeting-pa/",
     description: "Sheetrock installation, patching, texture matching, sanding, and repair.",
   },
   {
@@ -45,7 +46,8 @@ const Profession = () => {
       id="services"
     >
       <div className="flex flex-col justify-between h-fit md:pe-8 lg:pe-35.75 max-md:text-center my-auto">
-        <p className="section-title max-md:text-center">Honey-Do List Services</p>
+        <h2 className="section-title max-md:text-center">Handyman Services in Plymouth Meeting</h2>
+        <p className="mt-5 text-soft-dark leading-7">Drywall repair, carpentry, painting and practical home repairs for Plymouth Meeting, Blue Bell, Skippack and nearby Montgomery County communities.</p>
       </div>
       <div className="">
         {rolesData.map((role, index) => (

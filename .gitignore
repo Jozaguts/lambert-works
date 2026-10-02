@@ -21,3 +21,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.ssg/
+playwright-report/
+test-results/
+
+.env.local
+.env.*.local

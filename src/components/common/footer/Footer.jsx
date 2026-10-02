@@ -1,11 +1,13 @@
-import logo from "../../../assets/logo.png";
+import ResponsiveImage from "../../../components/common/ResponsiveImage";
+import images from "../../../data/images.json";
+const logo = images["logo.png"];
 import { trackContactClick } from "../../../utils/analytics";
 
 /* Footer nabLinks */
 const navItems = [
-  { id: 1, name: "Home", url: "Home" },
-  { id: 2, name: "About", url: "About" },
-  { id: 3, name: "Process", url: "Process" },
+  { id: 1, name: "Home", url: "introduction" },
+  { id: 2, name: "About", url: "profile" },
+  { id: 3, name: "Process", url: "work-process" },
   { id: 4, name: "Projects", url: "Projects" },
   { id: 5, name: "Repair Notes", url: "Blog" },
   { id: 6, name: "Services", url: "Services" },
@@ -17,9 +19,9 @@ const Footer = () => {
   return (
     <div className="pt-25 md:pt-40 content max-2xl:px-3">
       <div className="flex max-md:flex-col justify-between mx-0 items-center h-full w-full text-neutral-200">
-        <a href="#" className="flex items-center border-0">
+        <a href="/#introduction" className="flex items-center border-0">
          <div className={'bg-white rounded-2xl p-1.5'}>
-           <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
+           <ResponsiveImage src={logo} className="h-8 sm:h-14 w-auto object-contain rounded-2xl" alt="LambertWorks" sizes="56px" />
          </div>
           <p className="text-3xl sm:text-[32px] my-auto ms-[12px] font-semibold">
             LambertWorks
@@ -30,7 +32,7 @@ const Footer = () => {
             <a
               key={item.id}
               className="mx-2 group inline-block relative w-fit text-[12px] sm:text-[16px]"
-              href={`#${item.url.toLowerCase()}`}
+              href={`/#${item.url.toLowerCase()}`}
             >
               {item.name}
               <span className="absolute left-0 bottom-0 h-0.5 w-full bg-white scale-x-0 duration-300 group-hover:scale-x-100"></span>

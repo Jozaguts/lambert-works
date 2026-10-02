@@ -6,11 +6,12 @@ import ScrollToTop from "../components/common/scrollToTop/ScrollToTop";
 const Main = () => {
   return (
     <div data-theme={"light"} className="relative">
+      <a className="sr-only focus:not-sr-only focus:block focus:bg-white focus:p-4" href="#main-content">Skip to main content</a>
       <NavBar />
       <Outlet />
-      <div className="bg-charcoal">
+      <footer className="bg-charcoal">
         <Footer />
-      </div>
+      </footer>
       <ScrollToTop />
     </div>
   );
