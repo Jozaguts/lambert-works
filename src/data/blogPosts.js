@@ -8,20 +8,20 @@ export const blogPosts = [
   {
     id: 1,
     datePublished: "2026-05-09",
-    dateModified: "2026-06-12",
+    dateModified: "2026-10-02",
     slug: "handyman-plymouth-meeting-pa",
     image: handymanRepairs,
-    category: "Handyman Plymouth Meeting",
-    title: "Honey-Do List Handyman in Plymouth Meeting, PA",
-    seoTitle: "Handyman in Plymouth Meeting, PA | LambertWorks",
+    category: "Honey-Do List Repairs",
+    title: "Honey-Do List Repairs in Plymouth Meeting, PA",
+    seoTitle: "Honey-Do List Repairs in Plymouth Meeting, PA | LambertWorks",
     metaDescription:
-      "Need a handyman in Plymouth Meeting, PA? LambertWorks helps with honey-do lists, drywall, trim, paint touch-ups, installs, patios, and home repairs.",
+      "Organize your home repair list in Plymouth Meeting, PA. Group drywall patches, trim, paint touch-ups and small fixes into one visit. Request a free estimate.",
     excerpt:
       "Small repairs pile up fast. LambertWorks helps homeowners near Plymouth Meeting turn a scattered honey-do list into a clear estimate and clean, finished work.",
-    primaryKeyword: "handyman Plymouth Meeting PA",
+    primaryKeyword: "honey-do list repairs Plymouth Meeting PA",
     keywords: [
       "honey do list handyman Plymouth Meeting PA",
-      "handyman Plymouth Meeting PA",
+      "honey-do list repairs Plymouth Meeting PA",
       "home repair Plymouth Meeting PA",
       "local handyman Montgomery County",
       "handyman near Blue Bell PA",
@@ -48,8 +48,8 @@ export const blogPosts = [
     ],
     sections: [
       {
-        heading: "A practical handyman for the list that keeps growing",
-        body: "Most homeowners do not need a large remodeling company for every repair. They need a local handyman who can look at the list, explain what should happen first, and handle the work cleanly. That is the core LambertWorks service: bundled household repairs, touch-ups, installs, and fixes for homes near Plymouth Meeting, Blue Bell, and Skippack, PA.",
+        heading: "Organize your home repair list before requesting an estimate",
+        body: "Start with a room-by-room list of the repairs you keep postponing. Note what affects safety or daily use, take photos, and group related tasks such as drywall patches, paint touch-ups and trim repairs. This guide helps homeowners in Plymouth Meeting, Blue Bell and Skippack turn a honey-do list into a clear scope for a handyman estimate.",
       },
       {
         heading: "What a honey-do list means today",

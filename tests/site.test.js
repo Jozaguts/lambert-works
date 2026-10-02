@@ -78,3 +78,17 @@ test("static HTML includes route CSS before JavaScript runs", () => {
 test("hero offers AVIF with a WebP fallback", () => {
   assert.match(home(), /<source[^>]+type="image\/avif"[^>]+srcSet="[^"]+\.avif/);
 });
+
+test("home and honey-do guide have distinct titles, headings and intent", () => {
+  const article = readFileSync("dist/blog/handyman-plymouth-meeting-pa/index.html", "utf8");
+  const title = (html) => html.match(/<title>([^<]*)<\/title>/)[1];
+  assert.notEqual(title(home()), title(article));
+  assert.equal(title(article), "Honey-Do List Repairs in Plymouth Meeting, PA | LambertWorks");
+  assert.match(article, /<h1[^>]*>\s*Honey-Do List Repairs in Plymouth Meeting, PA\s*<\/h1>/);
+  assert.match(article, /Organize your home repair list/);
+});
+
+test("global CSS avoids duplicate and unused theme bundles", () => {
+  const href = home().match(/href="(\/assets\/index-[^"]+\.css)"/)[1];
+  assert.ok(readFileSync(`dist${href}`).byteLength < 80000);
+});
